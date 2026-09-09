@@ -1,0 +1,13 @@
+{
+  "cruise": 5.0,
+  "camera_range": 45.0,
+  "lidar_range": 48.0,
+  "radar_range": 85.0,
+  "packet_loss": 0.08,
+  "latency_min": 0.08,
+  "latency_max": 0.3,
+  "packet_ttl": 1.5,
+  "critical_ttc": 2.2,
+  "high_ttc": 4.0,
+  "medium_ttc": 7.0
+}

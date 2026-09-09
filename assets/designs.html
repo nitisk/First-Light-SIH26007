@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>First Light Designs</title>
+
+<style>
+body {
+  margin: 0;
+  background: #141a20;
+  color: #edf2f6;
+  font: 17px/1.6 system-ui, sans-serif;
+}
+
+main {
+  max-width: 1250px;
+  margin: auto;
+  padding: 36px 24px;
+}
+
+h1 {
+  font-size: 42px;
+  margin: 0 0 32px;
+}
+
+h2 {
+  margin: 36px 0 12px;
+  font-size: 27px;
+}
+
+figure {
+  margin: 0 0 34px;
+}
+
+img {
+  display: block;
+  width: 100%;
+  border-radius: 12px;
+  background: #fff;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+@media (max-width: 700px) {
+  .grid {
+    display: block;
+  }
+}
+</style>
+
+<main>
+  <h1>First Light Designs</h1>
+
+  <h2>Full-scale haul truck</h2>
+  <figure>
+    <img src="cad/haul_truck.png" alt="Full-scale mining haul truck">
+  </figure>
+
+  <h2>Structure and service access</h2>
+  <figure>
+    <img src="cad/haul_truck_cutaway.png" alt="Sectioned mining truck with exposed chassis">
+  </figure>
+
+  <h2>Sensor and electronics details</h2>
+  <div class="grid">
+    <figure>
+      <img src="cad/sensor_detail.png" alt="Roof sensor close-up">
+    </figure>
+
+    <figure>
+      <img src="cad/service_bay.png" alt="Industrial electronics cabinet">
+    </figure>
+  </div>
+
+  <h2>Demo electronics at actual size</h2>
+  <figure>
+    <img src="cad/demo_controller.png" alt="Arduino, Raspberry Pi, motor driver and sensors">
+  </figure>
+
+  <h2>KiCad control and safety circuit</h2>
+  <figure>
+    <img src="circuit/first_light.png" alt="KiCad wiring schematic">
+  </figure>
+</main>
+</html>

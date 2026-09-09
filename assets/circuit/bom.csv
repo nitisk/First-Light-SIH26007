@@ -1,0 +1,32 @@
+Reference,Description,Symbol,Quantity
+J1,4xNiMH / 4.8V nominal,SUPPLY_CONNECTOR,1
+F1,2A / size to cable-motor,Fuse,1
+SW1,MASTER,SW_SPST,1
+SW2,E-STOP NC / motor pole,SW_Push_Open,1
+SW3,E-STOP NC / sense pole,SW_Push_Open,1
+C1,100uF / 10V,C_Polarized,1
+C2,100nF / 16V,C,1
+C3,100nF,C,1
+C4,10uF / 10V,C_Polarized,1
+U2,Pololu 713 / module headers,TB6612_CARRIER,1
+M1,LEFT / stall <=0.8A,Motor_DC,1
+M2,RIGHT / stall <=0.8A,Motor_DC,1
+U7,LEFT encoder / 5V output,ENCODER,1
+U8,RIGHT encoder / 5V output,ENCODER,1
+U1,Arduino Uno R3 / used headers,UNO_R3,1
+R1,10k / STBY pull-down,R,1
+R2,10k / FOG pull-up,R,1
+SW4,FOG DEMO,SW_SPST,1
+J2,Regulated 5.1V / 3A USB-C,SUPPLY_CONNECTOR,1
+U9,Raspberry Pi 4B / USB host,RPI4_HOST,1
+U3,HC-SR04 / 5V,HCSR04,1
+U4,LEFT analog reflectance,ANALOG_LINE,1
+U5,CENTER analog reflectance,ANALOG_LINE,1
+U6,RIGHT analog reflectance,ANALOG_LINE,1
+Q1,BSS138 / SDA,BSS138,1
+Q2,BSS138 / SCL,BSS138,1
+R3,4.7k,R,1
+R4,4.7k,R,1
+R5,4.7k,R,1
+R6,4.7k,R,1
+U10,MPU6050 / 3.3V breakout,MPU6050_MODULE,1

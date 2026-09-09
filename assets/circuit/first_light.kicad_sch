@@ -1,0 +1,1847 @@
+(kicad_sch (version 20250114) (generator "eeschema") (uuid e6e694c7-39e9-42ea-a408-f36d502a0729) (paper "A2") (title_block (title "First Light - Hardware Wiring") (date "2026-09-08") (rev "B") (company "First Light")) (lib_symbols (symbol "FirstLight:R"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "R"
+			(at 2.032 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 0 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -1.778 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "R res resistor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "R_0_1"
+			(rectangle
+				(start -1.016 -2.54)
+				(end 1.016 2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "R_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+(symbol "FirstLight:C"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "C"
+			(at 0.635 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 0.635 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 0.9652 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "cap capacitor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "C_0_1"
+			(polyline
+				(pts
+					(xy -2.032 0.762) (xy 2.032 0.762)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.032 -0.762) (xy 2.032 -0.762)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "C_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 2.794)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 2.794)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+(symbol "FirstLight:C_Polarized"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "C"
+			(at 0.635 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_Polarized"
+			(at 0.635 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 0.9652 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "cap capacitor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "CP_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "C_Polarized_0_1"
+			(rectangle
+				(start -2.286 0.508)
+				(end 2.286 1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.778 2.286) (xy -0.762 2.286)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 2.794) (xy -1.27 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 2.286 -0.508)
+				(end -2.286 -1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(symbol "C_Polarized_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 2.794)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 2.794)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+(symbol "FirstLight:Fuse"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "F"
+			(at 2.032 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at -1.905 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -1.778 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "fuse"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "*Fuse*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Fuse_0_1"
+			(rectangle
+				(start -0.762 -2.54)
+				(end 0.762 2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy 0 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Fuse_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+(symbol "FirstLight:BSS138"
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "Q"
+			(at 5.08 1.905 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSS138"
+			(at 5.08 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 5.08 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, gate/source/drain"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "BSS138_0_1"
+			(polyline
+				(pts
+					(xy 0.254 1.905) (xy 0.254 -1.905)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.254 0) (xy -2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 2.286) (xy 0.762 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 0.508) (xy 0.762 -0.508)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 -1.27) (xy 0.762 -2.286)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 1.651 0)
+				(radius 2.794)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 2.54) (xy 2.54 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.54 1.778)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 2.54 -1.778)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.921 0.381) (xy 3.683 0.381)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "BSS138_1_1"
+			(pin input line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "G"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 -5.08 90)
+				(length 2.54)
+				(name "S"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 5.08 270)
+				(length 2.54)
+				(name "D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+(symbol "FirstLight:SW_SPST"
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "SW"
+			(at 0 3.175 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 0 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "switch lever"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "SW_SPST_0_0"
+			(circle
+				(center -2.032 0)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.524 0.254) (xy 1.524 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.032 0)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "SW_SPST_1_1"
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+(symbol "FirstLight:SW_Push_Open"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "SW"
+			(at 0 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_Open"
+			(at 0 -1.905 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, push-to-open, generic, two pins"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "switch normally-closed pushbutton push-button"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "SW_Push_Open_0_1"
+			(polyline
+				(pts
+					(xy -2.54 -0.635) (xy 2.54 -0.635)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -2.032 0)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -0.635) (xy 0 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.032 0)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SW_Push_Open_1_1"
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+(symbol "FirstLight:PWR_FLAG"
+		(power global)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "#FLG"
+			(at 0 1.905 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 0 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "flag power"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "PWR_FLAG_0_0"
+			(pin power_out line
+				(at 0 0 90)
+				(length 0)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PWR_FLAG_0_1"
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+(symbol "FirstLight:Motor_DC"
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "M"
+			(at 2.54 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Motor_DC"
+			(at 2.54 -5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 -2.286 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -2.286 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "DC Motor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "DC Motor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "PinHeader*P2.54mm* TerminalBlock*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Motor_DC_0_0"
+			(polyline
+				(pts
+					(xy -1.27 -3.302) (xy -1.27 0.508) (xy 0 -2.032) (xy 1.27 0.508) (xy 1.27 -3.302)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Motor_DC_0_1"
+			(polyline
+				(pts
+					(xy 0 2.032) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 1.7272) (xy 0 2.0828)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 -1.524)
+				(radius 3.2512)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -4.7752) (xy 0 -5.1816)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -7.62) (xy 0 -7.112)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Motor_DC_1_1"
+			(pin passive line
+				(at 0 5.08 270)
+				(length 2.54)
+				(name "+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -7.62 90)
+				(length 2.54)
+				(name "-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+(symbol "FirstLight:UNO_R3" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)(property "Reference" "U" (at 0 38.1 0) (effects (font (size 1.27 1.27))))(property "Value" "UNO_R3" (at 0 35.56 0) (effects (font (size 1.27 1.27))))(symbol "UNO_R3_0_1" (rectangle (start -30.48 33.02) (end 30.48 -33.02) (stroke (width .254) (type default)) (fill (type background))))(symbol "UNO_R3_1_1"(pin input line (at -35.56 27.940000000000005 0) (length 5.08) (name "D2 / encoder L" (effects (font (size 1.016 1.016)))) (number "D2" (effects (font (size .889 .889)))))(pin input line (at -35.56 22.860000000000007 0) (length 5.08) (name "D3 / encoder R" (effects (font (size 1.016 1.016)))) (number "D3" (effects (font (size .889 .889)))))(pin output line (at -35.56 17.780000000000005 0) (length 5.08) (name "D4 / STBY" (effects (font (size 1.016 1.016)))) (number "D4" (effects (font (size .889 .889)))))(pin output line (at -35.56 12.700000000000005 0) (length 5.08) (name "D5 / PWM L" (effects (font (size 1.016 1.016)))) (number "D5" (effects (font (size .889 .889)))))(pin output line (at -35.56 7.6200000000000045 0) (length 5.08) (name "D6 / PWM R" (effects (font (size 1.016 1.016)))) (number "D6" (effects (font (size .889 .889)))))(pin output line (at -35.56 2.5400000000000063 0) (length 5.08) (name "D7 / AIN1" (effects (font (size 1.016 1.016)))) (number "D7" (effects (font (size .889 .889)))))(pin output line (at -35.56 -2.5399999999999956 0) (length 5.08) (name "D8 / AIN2" (effects (font (size 1.016 1.016)))) (number "D8" (effects (font (size .889 .889)))))(pin output line (at -35.56 -7.619999999999997 0) (length 5.08) (name "D9 / BIN1" (effects (font (size 1.016 1.016)))) (number "D9" (effects (font (size .889 .889)))))(pin output line (at -35.56 -12.699999999999996 0) (length 5.08) (name "D10 / BIN2" (effects (font (size 1.016 1.016)))) (number "D10" (effects (font (size .889 .889)))))(pin output line (at -35.56 -17.779999999999994 0) (length 5.08) (name "D11 / TRIG" (effects (font (size 1.016 1.016)))) (number "D11" (effects (font (size .889 .889)))))(pin input line (at -35.56 -22.859999999999992 0) (length 5.08) (name "D12 / ECHO" (effects (font (size 1.016 1.016)))) (number "D12" (effects (font (size .889 .889)))))(pin input line (at -35.56 -27.939999999999998 0) (length 5.08) (name "D13 / fog" (effects (font (size 1.016 1.016)))) (number "D13" (effects (font (size .889 .889)))))(pin input line (at 35.56 27.940000000000005 180) (length 5.08) (name "A0 / line L" (effects (font (size 1.016 1.016)))) (number "A0" (effects (font (size .889 .889)))))(pin input line (at 35.56 22.860000000000007 180) (length 5.08) (name "A1 / line C" (effects (font (size 1.016 1.016)))) (number "A1" (effects (font (size .889 .889)))))(pin input line (at 35.56 17.780000000000005 180) (length 5.08) (name "A2 / line R" (effects (font (size 1.016 1.016)))) (number "A2" (effects (font (size .889 .889)))))(pin input line (at 35.56 12.700000000000005 180) (length 5.08) (name "A3 / E-stop" (effects (font (size 1.016 1.016)))) (number "A3" (effects (font (size .889 .889)))))(pin bidirectional line (at 35.56 7.6200000000000045 180) (length 5.08) (name "A4 / SDA" (effects (font (size 1.016 1.016)))) (number "A4" (effects (font (size .889 .889)))))(pin bidirectional line (at 35.56 2.5400000000000063 180) (length 5.08) (name "A5 / SCL" (effects (font (size 1.016 1.016)))) (number "A5" (effects (font (size .889 .889)))))(pin power_out line (at 35.56 -2.5399999999999956 180) (length 5.08) (name "5V header" (effects (font (size 1.016 1.016)))) (number "5V" (effects (font (size .889 .889)))))(pin power_out line (at 35.56 -7.619999999999997 180) (length 5.08) (name "3V3 header" (effects (font (size 1.016 1.016)))) (number "3V3" (effects (font (size .889 .889)))))(pin power_in line (at 35.56 -12.699999999999996 180) (length 5.08) (name "GND" (effects (font (size 1.016 1.016)))) (number "GND" (effects (font (size .889 .889)))))(pin power_in line (at 35.56 -17.779999999999994 180) (length 5.08) (name "USB-B VBUS" (effects (font (size 1.016 1.016)))) (number "USB1" (effects (font (size .889 .889)))))(pin bidirectional line (at 35.56 -22.859999999999992 180) (length 5.08) (name "USB-B D-" (effects (font (size 1.016 1.016)))) (number "USB2" (effects (font (size .889 .889)))))(pin bidirectional line (at 35.56 -27.939999999999998 180) (length 5.08) (name "USB-B D+" (effects (font (size 1.016 1.016)))) (number "USB3" (effects (font (size .889 .889)))))))
+(symbol "FirstLight:TB6612_CARRIER" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)(property "Reference" "U" (at 0 33.02 0) (effects (font (size 1.27 1.27))))(property "Value" "TB6612_CARRIER" (at 0 30.48 0) (effects (font (size 1.27 1.27))))(symbol "TB6612_CARRIER_0_1" (rectangle (start -20.32 27.94) (end 20.32 -27.94) (stroke (width .254) (type default)) (fill (type background))))(symbol "TB6612_CARRIER_1_1"(pin power_in line (at -25.4 22.86 0) (length 5.08) (name "VMOT" (effects (font (size 1.016 1.016)))) (number "VMOT" (effects (font (size .889 .889)))))(pin power_in line (at -25.4 17.78 0) (length 5.08) (name "VCC" (effects (font (size 1.016 1.016)))) (number "VCC" (effects (font (size .889 .889)))))(pin power_in line (at -25.4 12.7 0) (length 5.08) (name "GND" (effects (font (size 1.016 1.016)))) (number "GND" (effects (font (size .889 .889)))))(pin input line (at -25.4 7.619999999999999 0) (length 5.08) (name "STBY" (effects (font (size 1.016 1.016)))) (number "STBY" (effects (font (size .889 .889)))))(pin input line (at -25.4 2.539999999999999 0) (length 5.08) (name "PWMA" (effects (font (size 1.016 1.016)))) (number "PWMA" (effects (font (size .889 .889)))))(pin input line (at -25.4 -2.539999999999999 0) (length 5.08) (name "AIN1" (effects (font (size 1.016 1.016)))) (number "AIN1" (effects (font (size .889 .889)))))(pin input line (at -25.4 -7.620000000000001 0) (length 5.08) (name "AIN2" (effects (font (size 1.016 1.016)))) (number "AIN2" (effects (font (size .889 .889)))))(pin input line (at -25.4 -12.700000000000003 0) (length 5.08) (name "PWMB" (effects (font (size 1.016 1.016)))) (number "PWMB" (effects (font (size .889 .889)))))(pin input line (at -25.4 -17.78 0) (length 5.08) (name "BIN1" (effects (font (size 1.016 1.016)))) (number "BIN1" (effects (font (size .889 .889)))))(pin input line (at -25.4 -22.86 0) (length 5.08) (name "BIN2" (effects (font (size 1.016 1.016)))) (number "BIN2" (effects (font (size .889 .889)))))(pin output line (at 25.4 22.86 180) (length 5.08) (name "AO1" (effects (font (size 1.016 1.016)))) (number "AO1" (effects (font (size .889 .889)))))(pin output line (at 25.4 17.78 180) (length 5.08) (name "AO2" (effects (font (size 1.016 1.016)))) (number "AO2" (effects (font (size .889 .889)))))(pin output line (at 25.4 12.7 180) (length 5.08) (name "BO1" (effects (font (size 1.016 1.016)))) (number "BO1" (effects (font (size .889 .889)))))(pin output line (at 25.4 7.619999999999999 180) (length 5.08) (name "BO2" (effects (font (size 1.016 1.016)))) (number "BO2" (effects (font (size .889 .889)))))))
+(symbol "FirstLight:RPI4_HOST" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)(property "Reference" "U" (at 0 15.24 0) (effects (font (size 1.27 1.27))))(property "Value" "RPI4_HOST" (at 0 12.7 0) (effects (font (size 1.27 1.27))))(symbol "RPI4_HOST_0_1" (rectangle (start -25.4 10.16) (end 25.4 -10.16) (stroke (width .254) (type default)) (fill (type background))))(symbol "RPI4_HOST_1_1"(pin power_in line (at -30.479999999999997 5.08 0) (length 5.08) (name "USB-C 5V / 3A" (effects (font (size 1.016 1.016)))) (number "PWR" (effects (font (size .889 .889)))))(pin power_in line (at -30.479999999999997 0.0 0) (length 5.08) (name "GND" (effects (font (size 1.016 1.016)))) (number "GND" (effects (font (size .889 .889)))))(pin power_out line (at 30.479999999999997 5.08 180) (length 5.08) (name "USB-A VBUS" (effects (font (size 1.016 1.016)))) (number "VBUS" (effects (font (size .889 .889)))))(pin bidirectional line (at 30.479999999999997 0.0 180) (length 5.08) (name "USB-A D-" (effects (font (size 1.016 1.016)))) (number "DM" (effects (font (size .889 .889)))))(pin bidirectional line (at 30.479999999999997 -5.08 180) (length 5.08) (name "USB-A D+" (effects (font (size 1.016 1.016)))) (number "DP" (effects (font (size .889 .889)))))))
+(symbol "FirstLight:HCSR04" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)(property "Reference" "U" (at 0 17.78 0) (effects (font (size 1.27 1.27))))(property "Value" "HCSR04" (at 0 15.239999999999998 0) (effects (font (size 1.27 1.27))))(symbol "HCSR04_0_1" (rectangle (start -15.24 12.7) (end 15.24 -12.7) (stroke (width .254) (type default)) (fill (type background))))(symbol "HCSR04_1_1"(pin power_in line (at -20.32 7.619999999999999 0) (length 5.08) (name "VCC" (effects (font (size 1.016 1.016)))) (number "1" (effects (font (size .889 .889)))))(pin input line (at -20.32 2.539999999999999 0) (length 5.08) (name "TRIG" (effects (font (size 1.016 1.016)))) (number "2" (effects (font (size .889 .889)))))(pin output line (at -20.32 -2.540000000000001 0) (length 5.08) (name "ECHO" (effects (font (size 1.016 1.016)))) (number "3" (effects (font (size .889 .889)))))(pin power_in line (at -20.32 -7.620000000000001 0) (length 5.08) (name "GND" (effects (font (size 1.016 1.016)))) (number "4" (effects (font (size .889 .889)))))))
+(symbol "FirstLight:MPU6050_MODULE" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)(property "Reference" "U" (at 0 17.78 0) (effects (font (size 1.27 1.27))))(property "Value" "MPU6050_MODULE" (at 0 15.239999999999998 0) (effects (font (size 1.27 1.27))))(symbol "MPU6050_MODULE_0_1" (rectangle (start -20.32 12.7) (end 20.32 -12.7) (stroke (width .254) (type default)) (fill (type background))))(symbol "MPU6050_MODULE_1_1"(pin power_in line (at -25.4 7.619999999999999 0) (length 5.08) (name "3V3 SUPPLY" (effects (font (size 1.016 1.016)))) (number "VCC" (effects (font (size .889 .889)))))(pin power_in line (at -25.4 2.539999999999999 0) (length 5.08) (name "GND" (effects (font (size 1.016 1.016)))) (number "GND" (effects (font (size .889 .889)))))(pin bidirectional line (at -25.4 -2.540000000000001 0) (length 5.08) (name "SCL" (effects (font (size 1.016 1.016)))) (number "SCL" (effects (font (size .889 .889)))))(pin bidirectional line (at -25.4 -7.620000000000001 0) (length 5.08) (name "SDA" (effects (font (size 1.016 1.016)))) (number "SDA" (effects (font (size .889 .889)))))(pin input line (at 25.4 7.619999999999999 180) (length 5.08) (name "AD0 = 0x68" (effects (font (size 1.016 1.016)))) (number "AD0" (effects (font (size .889 .889)))))(pin output line (at 25.4 2.539999999999999 180) (length 5.08) (name "INT unused" (effects (font (size 1.016 1.016)))) (number "INT" (effects (font (size .889 .889)))))))
+(symbol "FirstLight:ANALOG_LINE" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)(property "Reference" "U" (at 0 15.24 0) (effects (font (size 1.27 1.27))))(property "Value" "ANALOG_LINE" (at 0 12.7 0) (effects (font (size 1.27 1.27))))(symbol "ANALOG_LINE_0_1" (rectangle (start -17.78 10.16) (end 17.78 -10.16) (stroke (width .254) (type default)) (fill (type background))))(symbol "ANALOG_LINE_1_1"(pin power_in line (at -22.86 5.08 0) (length 5.08) (name "5V" (effects (font (size 1.016 1.016)))) (number "1" (effects (font (size .889 .889)))))(pin power_in line (at -22.86 0.0 0) (length 5.08) (name "GND" (effects (font (size 1.016 1.016)))) (number "2" (effects (font (size .889 .889)))))(pin output line (at -22.86 -5.08 0) (length 5.08) (name "ANALOG OUT" (effects (font (size 1.016 1.016)))) (number "3" (effects (font (size .889 .889)))))))
+(symbol "FirstLight:ENCODER" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)(property "Reference" "U" (at 0 15.24 0) (effects (font (size 1.27 1.27))))(property "Value" "ENCODER" (at 0 12.7 0) (effects (font (size 1.27 1.27))))(symbol "ENCODER_0_1" (rectangle (start -17.78 10.16) (end 17.78 -10.16) (stroke (width .254) (type default)) (fill (type background))))(symbol "ENCODER_1_1"(pin power_in line (at -22.86 5.08 0) (length 5.08) (name "5V" (effects (font (size 1.016 1.016)))) (number "1" (effects (font (size .889 .889)))))(pin power_in line (at -22.86 0.0 0) (length 5.08) (name "GND" (effects (font (size 1.016 1.016)))) (number "2" (effects (font (size .889 .889)))))(pin output line (at -22.86 -5.08 0) (length 5.08) (name "PULSE OUT" (effects (font (size 1.016 1.016)))) (number "3" (effects (font (size .889 .889)))))))
+(symbol "FirstLight:SUPPLY_CONNECTOR" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)(property "Reference" "U" (at 0 15.24 0) (effects (font (size 1.27 1.27))))(property "Value" "SUPPLY_CONNECTOR" (at 0 12.7 0) (effects (font (size 1.27 1.27))))(symbol "SUPPLY_CONNECTOR_0_1" (rectangle (start -10.16 10.16) (end 10.16 -10.16) (stroke (width .254) (type default)) (fill (type background))))(symbol "SUPPLY_CONNECTOR_1_1"(pin passive line (at -15.24 5.08 0) (length 5.08) (name "+" (effects (font (size 1.016 1.016)))) (number "1" (effects (font (size .889 .889)))))(pin passive line (at -15.24 0.0 0) (length 5.08) (name "-" (effects (font (size 1.016 1.016)))) (number "2" (effects (font (size .889 .889))))))))
+(text "FIRST LIGHT  /  CONTROL & SAFETY WIRING" (at 20 18 0) (effects (font (size 3 3)) (justify left bottom)) (uuid ec6762a8-3dae-4408-ae8a-c2072d1cf12b))
+(text "REV B  |  TABLETOP IMPLEMENTATION  |  UNO R3 + PI HOST  |  2026-09-08" (at 20 25 0) (effects (font (size 1.5 1.5)) (justify left bottom)) (uuid 60df86fb-bc00-4875-a59d-3f187f9ac65f))
+(text "01  POWER / INDEPENDENT MOTOR DISCONNECT" (at 20 38 0) (effects (font (size 1.8 1.8)) (justify left bottom)) (uuid 0912a125-8eed-44ec-ac99-a8ec2f700653))
+(wire (pts (xy 33.0200 60.9600) (xy 22.8600 60.9600)) (stroke (width 0) (type default)) (uuid 152dd261-a0a9-4016-9409-e13176e29374))
+(label "BAT_RAW" (at 22.8600 60.9600 180) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid 94f7bc82-65db-4a8b-ae9f-522b5d0475d1))
+(wire (pts (xy 33.0200 66.0400) (xy 22.8600 66.0400)) (stroke (width 0) (type default)) (uuid b7b6c779-27ae-417d-bbae-c6db1fda3be8))
+(label "GND" (at 22.8600 66.0400 180) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid 10143a74-0c39-431c-a38a-a3cccc283883))
+(symbol (lib_id "FirstLight:SUPPLY_CONNECTOR") (at 48.26 66.04 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid 411be796-fa76-48e2-ac0d-6a032cdd89ad)(property "Reference" "J1" (at 48.26 50.80000000000001 0) (effects (font (size 1.27 1.27))))(property "Value" "4xNiMH / 4.8V nominal" (at 48.26 53.34000000000001 0) (effects (font (size 1.016 1.016))))(pin "1" (uuid dece9dfb-fa3a-4679-95ce-2d9a6ce6f310))(pin "2" (uuid ff4e80a1-1077-49fb-b3ff-38c351e6d824))(instances (project "first_light" (path "/e6e694c7-39e9-42ea-a408-f36d502a0729" (reference "J1") (unit 1)))))
+(wire (pts (xy 85.0900 66.0400) (xy 74.9300 66.0400)) (stroke (width 0) (type default)) (uuid 7e923903-787f-4db1-969d-c780c1777767))
+(label "BAT_RAW" (at 74.9300 66.0400 180) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid 7147e13f-8e94-4961-ba29-7217a5f46b93))
+(wire (pts (xy 92.7100 66.0400) (xy 102.8700 66.0400)) (stroke (width 0) (type default)) (uuid d65e2c5c-6a8f-4c51-bc85-f1077c4ddd80))
+(label "BAT_FUSED" (at 102.8700 66.0400 0) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid c8295ba1-414a-4580-91f7-3e6400d8ae89))
+(symbol (lib_id "FirstLight:Fuse") (at 88.9 66.04 90) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid c30f93a5-82cc-4a18-abdd-7ba614476bd2)(property "Reference" "F1" (at 88.9 52.96000000000001 90) (effects (font (size 1.27 1.27))))(property "Value" "2A / size to cable-motor" (at 88.9 55.50000000000001 90) (effects (font (size 1.016 1.016))))(pin "1" (uuid cf319167-ffc9-4f78-8cab-d197088ae1b7))(pin "2" (uuid 47382b89-af5b-4d29-b082-e0b36c439a3a))(instances (project "first_light" (path "/e6e694c7-39e9-42ea-a408-f36d502a0729" (reference "F1") (unit 1)))))
+(wire (pts (xy 129.5400 66.0400) (xy 119.3800 66.0400)) (stroke (width 0) (type default)) (uuid 2bb0b928-6d99-4d7a-89a8-a6a61b56c36b))
+(label "BAT_FUSED" (at 119.3800 66.0400 180) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid 813e54d9-afa0-401b-964b-0d05f938d747))
+(wire (pts (xy 139.7000 66.0400) (xy 149.8600 66.0400)) (stroke (width 0) (type default)) (uuid 34989bdc-dc04-4a69-a4ce-030988c0201c))
+(label "MOTOR_SW" (at 149.8600 66.0400 0) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid 122f32c3-0aad-4c55-9c52-a19894e4bc4a))
+(symbol (lib_id "FirstLight:SW_SPST") (at 134.62 66.04 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid 92f96424-c74b-4c54-a4e1-b9fd653bf1a4)(property "Reference" "SW1" (at 134.62 52.96000000000001 0) (effects (font (size 1.27 1.27))))(property "Value" "MASTER" (at 134.62 55.50000000000001 0) (effects (font (size 1.016 1.016))))(pin "1" (uuid 576ad64b-4ae1-4a04-9fb1-d98f2408d868))(pin "2" (uuid c5a2f96b-9c73-4c42-b48b-484ad945c850))(instances (project "first_light" (path "/e6e694c7-39e9-42ea-a408-f36d502a0729" (reference "SW1") (unit 1)))))
+(wire (pts (xy 180.3400 53.3400) (xy 170.1800 53.3400)) (stroke (width 0) (type default)) (uuid b51a099a-a62e-4bc3-9cfe-f656b7123ec0))
+(label "MOTOR_SW" (at 170.1800 53.3400 180) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid 32a435a8-7c38-4bb1-9c5a-eec475ef06ec))
+(wire (pts (xy 190.5000 53.3400) (xy 200.6600 53.3400)) (stroke (width 0) (type default)) (uuid 36173338-1666-4ccc-be66-0074bb7144c5))
+(label "VMOT" (at 200.6600 53.3400 0) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid 5d3d233e-7e71-495a-9a89-70669238c35d))
+(symbol (lib_id "FirstLight:SW_Push_Open") (at 185.42 53.34 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid 0ed96807-12fd-4976-8815-80a916a121aa)(property "Reference" "SW2" (at 185.42 40.260000000000005 0) (effects (font (size 1.27 1.27))))(property "Value" "E-STOP NC / motor pole" (at 185.42 42.800000000000004 0) (effects (font (size 1.016 1.016))))(pin "1" (uuid 7509d62e-2969-488b-87b1-962bd15aebc1))(pin "2" (uuid c498aa4b-3bed-45ae-9fb3-6bb44e013ff1))(instances (project "first_light" (path "/e6e694c7-39e9-42ea-a408-f36d502a0729" (reference "SW2") (unit 1)))))
+(wire (pts (xy 180.3400 88.9000) (xy 170.1800 88.9000)) (stroke (width 0) (type default)) (uuid 0a60457f-3e1f-438b-9845-5d61ef109048))
+(label "ESTOP_A3" (at 170.1800 88.9000 180) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid e1e68b92-184d-4140-9e9f-6dae2ad8f729))
+(wire (pts (xy 190.5000 88.9000) (xy 200.6600 88.9000)) (stroke (width 0) (type default)) (uuid 494c7c54-befc-435c-be4c-a938d02f7dfd))
+(label "GND" (at 200.6600 88.9000 0) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid faf8b55e-78ad-44d4-8f51-7b5bc348bcf0))
+(symbol (lib_id "FirstLight:SW_Push_Open") (at 185.42 88.9 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid 8126367b-dc85-4507-98fb-e9abe1862ad3)(property "Reference" "SW3" (at 185.42 75.82000000000001 0) (effects (font (size 1.27 1.27))))(property "Value" "E-STOP NC / sense pole" (at 185.42 78.36 0) (effects (font (size 1.016 1.016))))(pin "1" (uuid 51d16fe6-fe90-4815-b937-b549931f1fb1))(pin "2" (uuid 95862fde-8968-494e-be06-214e0bf4cf10))(instances (project "first_light" (path "/e6e694c7-39e9-42ea-a408-f36d502a0729" (reference "SW3") (unit 1)))))
+(text "SW2 + SW3 = two isolated NC contacts on ONE latching actuator." (at 20 109.22 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid ce00d016-92c2-40be-a519-79e425d6238b))
+(text "DC motor contact rating >= combined stall current. Reset to rearm." (at 20 115.57 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid 4833b8e0-bf41-4539-a5cc-22d75a678870))
+(wire (pts (xy 38.1000 140.9700) (xy 38.1000 130.8100)) (stroke (width 0) (type default)) (uuid 6d01967b-1c2d-4d84-aaa1-d6f749e7e71a))
+(label "VMOT" (at 38.1000 130.8100 90) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid 98a2b426-1bb1-4b0b-ac62-9823c9afa43a))
+(wire (pts (xy 38.1000 148.5900) (xy 38.1000 158.7500)) (stroke (width 0) (type default)) (uuid 6061f594-0fd0-42fd-ad4d-e997f6fa05cc))
+(label "GND" (at 38.1000 158.7500 270) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid 4dfc93ec-a5e1-49b7-bdb4-ed0fb62dc375))
+(symbol (lib_id "FirstLight:C_Polarized") (at 38.1 144.78 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid 4c972762-4102-46ee-a632-9cb8342ab596)(property "Reference" "C1" (at 43.18 142.24 0) (effects (font (size 1.27 1.27)) (justify left)))(property "Value" "100uF / 10V" (at 43.18 144.78 0) (effects (font (size 1.016 1.016)) (justify left)))(pin "1" (uuid 08cb3d6b-d199-4cc1-8089-59ebbeadc770))(pin "2" (uuid a8d6158f-fac5-4f68-880a-d4db597bcb2e))(instances (project "first_light" (path "/e6e694c7-39e9-42ea-a408-f36d502a0729" (reference "C1") (unit 1)))))
+(wire (pts (xy 83.8200 140.9700) (xy 83.8200 130.8100)) (stroke (width 0) (type default)) (uuid 3f15a466-15d3-4621-9f25-9301cc9cd25e))
+(label "VMOT" (at 83.8200 130.8100 90) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid 0ef51ce1-62de-403a-92d2-2590695d9864))
+(wire (pts (xy 83.8200 148.5900) (xy 83.8200 158.7500)) (stroke (width 0) (type default)) (uuid a5454af8-dc67-4a0d-a5a5-4738872de93e))
+(label "GND" (at 83.8200 158.7500 270) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid 81523d16-664c-4365-ab44-0eb2b630dacd))
+(symbol (lib_id "FirstLight:C") (at 83.82 144.78 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid d9bf58d5-90c8-42d1-aec9-853397289604)(property "Reference" "C2" (at 88.89999999999999 142.24 0) (effects (font (size 1.27 1.27)) (justify left)))(property "Value" "100nF / 16V" (at 88.89999999999999 144.78 0) (effects (font (size 1.016 1.016)) (justify left)))(pin "1" (uuid 9590e437-a8c7-4d79-9054-38b22acd0c89))(pin "2" (uuid 66f16853-6edc-4a4c-b58f-7fdc84459266))(instances (project "first_light" (path "/e6e694c7-39e9-42ea-a408-f36d502a0729" (reference "C2") (unit 1)))))
+(wire (pts (xy 129.5400 140.9700) (xy 129.5400 130.8100)) (stroke (width 0) (type default)) (uuid 123a5257-f103-4b0b-9995-71f547c61835))
+(label "LOGIC_5V" (at 129.5400 130.8100 90) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid dba2f1d7-4c52-4a3a-bcf3-c7d003ade752))
+(wire (pts (xy 129.5400 148.5900) (xy 129.5400 158.7500)) (stroke (width 0) (type default)) (uuid fbdf9101-15bf-42d4-a57b-e044fe951de4))
+(label "GND" (at 129.5400 158.7500 270) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid 5a9e1dc1-be28-4ca2-8543-4f13a7b0ea90))
+(symbol (lib_id "FirstLight:C") (at 129.54 144.78 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid fd646417-d5c5-4f1c-b52b-fb7a02760f91)(property "Reference" "C3" (at 134.62 142.24 0) (effects (font (size 1.27 1.27)) (justify left)))(property "Value" "100nF" (at 134.62 144.78 0) (effects (font (size 1.016 1.016)) (justify left)))(pin "1" (uuid 48bc6c39-240e-46f4-8f5e-c8bf927f76ef))(pin "2" (uuid e423e870-1d5d-4cd6-8fe1-c32c309844b0))(instances (project "first_light" (path "/e6e694c7-39e9-42ea-a408-f36d502a0729" (reference "C3") (unit 1)))))
+(wire (pts (xy 175.2600 140.9700) (xy 175.2600 130.8100)) (stroke (width 0) (type default)) (uuid 7a529c83-3b62-4fc8-b484-6545e9042665))
+(label "LOGIC_5V" (at 175.2600 130.8100 90) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid 07a2cb56-2d0b-4cd4-844e-0950c15b70a2))
+(wire (pts (xy 175.2600 148.5900) (xy 175.2600 158.7500)) (stroke (width 0) (type default)) (uuid 085067c7-721e-407a-8b38-d5fa8fac4020))
+(label "GND" (at 175.2600 158.7500 270) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid c9cf6b58-4443-4688-bbf0-ebea53ea02e8))
+(symbol (lib_id "FirstLight:C_Polarized") (at 175.26 144.78 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid 1a046ca2-0e77-457e-ae1a-4b7b73380c09)(property "Reference" "C4" (at 180.34 142.24 0) (effects (font (size 1.27 1.27)) (justify left)))(property "Value" "10uF / 10V" (at 180.34 144.78 0) (effects (font (size 1.016 1.016)) (justify left)))(pin "1" (uuid 07dd70a6-e193-433a-8576-4a26cd1c16af))(pin "2" (uuid a00da705-5deb-4481-91f4-b0f4261d5122))(instances (project "first_light" (path "/e6e694c7-39e9-42ea-a408-f36d502a0729" (reference "C4") (unit 1)))))
+(text "External decoupling; carrier/module onboard capacitors retained." (at 20 169 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid 8a19528c-a327-4a15-b822-9bc427278eb8))
+(wire (pts (xy 25.4000 187.9600) (xy 25.4000 198.1200)) (stroke (width 0) (type default)) (uuid a45a9b70-19f0-4f6f-a30a-3b524aecc12e))
+(label "VMOT" (at 25.4000 198.1200 270) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid 5734d345-5667-4180-8823-9a0ec309d401))
+(symbol (lib_id "FirstLight:PWR_FLAG") (at 25.4 187.96 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid d90b84f5-366d-4d02-bc11-40ce67c1e380)(property "Reference" "#FLG01" (at 25.4 174.88 0) (effects (font (size 1.27 1.27))))(property "Value" "PWR_FLAG" (at 25.4 177.42000000000002 0) (effects (font (size 1.016 1.016))))(pin "1" (uuid 1e0061df-0e79-4c42-b7be-7bd1c7ff1c3d))(instances (project "first_light" (path "/e6e694c7-39e9-42ea-a408-f36d502a0729" (reference "#FLG01") (unit 1)))))
+(wire (pts (xy 73.6600 187.9600) (xy 73.6600 198.1200)) (stroke (width 0) (type default)) (uuid 2a08241f-a460-4a5f-aca3-ce4f2afcfdbb))
+(label "GND" (at 73.6600 198.1200 270) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid 8b587916-c4b7-427c-826c-d706175d9c43))
+(symbol (lib_id "FirstLight:PWR_FLAG") (at 73.66 187.96 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid bf82ec7b-15e7-4302-b7b6-873bf3bcc80f)(property "Reference" "#FLG02" (at 73.66 174.88 0) (effects (font (size 1.27 1.27))))(property "Value" "PWR_FLAG" (at 73.66 177.42000000000002 0) (effects (font (size 1.016 1.016))))(pin "1" (uuid c86273fd-84a3-4ad2-a42d-342d79c90fbb))(instances (project "first_light" (path "/e6e694c7-39e9-42ea-a408-f36d502a0729" (reference "#FLG02") (unit 1)))))
+(wire (pts (xy 121.9200 187.9600) (xy 121.9200 198.1200)) (stroke (width 0) (type default)) (uuid 8090d0b9-7ee9-4ffe-a919-de94f1418314))
+(label "PI_5V" (at 121.9200 198.1200 270) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid 4e24f136-63dc-44a2-a8fd-6c42ac8bf2e7))
+(symbol (lib_id "FirstLight:PWR_FLAG") (at 121.92 187.96 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid 2a051b1b-a906-46d9-8180-356338fa1109)(property "Reference" "#FLG03" (at 121.92 174.88 0) (effects (font (size 1.27 1.27))))(property "Value" "PWR_FLAG" (at 121.92 177.42000000000002 0) (effects (font (size 1.016 1.016))))(pin "1" (uuid 66f5ceb3-5cfc-4eea-85b8-67e645ae46b5))(instances (project "first_light" (path "/e6e694c7-39e9-42ea-a408-f36d502a0729" (reference "#FLG03") (unit 1)))))
+(text "02  MOTOR DRIVER / ENCODERS" (at 20 214.63 0) (effects (font (size 1.8 1.8)) (justify left bottom)) (uuid be37e8f2-eafb-4927-87ff-64f44e64af39))
+(wire (pts (xy 58.4200 251.4600) (xy 48.2600 251.4600)) (stroke (width 0) (type default)) (uuid 2090c180-bce0-48a6-9a74-99b80487f1a6))
+(label "VMOT" (at 48.2600 251.4600 180) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid 432b9910-f210-4b8f-b732-2a743672d8b5))
+(wire (pts (xy 58.4200 256.5400) (xy 48.2600 256.5400)) (stroke (width 0) (type default)) (uuid 5c5aa579-db4c-452a-93c8-963bfa4edfe4))
+(label "LOGIC_5V" (at 48.2600 256.5400 180) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid 28bb4376-55d0-40eb-93f0-92f6154a21b9))
+(wire (pts (xy 58.4200 261.6200) (xy 48.2600 261.6200)) (stroke (width 0) (type default)) (uuid c8d30ec8-814a-4da3-872c-e7a9ad8c9fb8))
+(label "GND" (at 48.2600 261.6200 180) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid 7a351bae-701c-4d66-8867-677c5d300e4e))
+(wire (pts (xy 58.4200 266.7000) (xy 48.2600 266.7000)) (stroke (width 0) (type default)) (uuid 3561f40c-7962-43c2-bf11-1af4331916b2))
+(label "STBY_D4" (at 48.2600 266.7000 180) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid 635e6ac1-849d-46df-bcf8-c69d82fc2929))
+(wire (pts (xy 58.4200 271.7800) (xy 48.2600 271.7800)) (stroke (width 0) (type default)) (uuid 4394f8c9-95ed-4ecc-a01c-3b1065bac4e3))
+(label "PWM_L_D5" (at 48.2600 271.7800 180) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid dc6531f5-c4c9-47cd-957d-b9a92a703535))
+(wire (pts (xy 58.4200 276.8600) (xy 48.2600 276.8600)) (stroke (width 0) (type default)) (uuid b57c2a08-2129-40b6-8058-7d70bac0c332))
+(label "AIN1_D7" (at 48.2600 276.8600 180) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid 7394b22d-147c-4909-a937-19a97c1ff10a))
+(wire (pts (xy 58.4200 281.9400) (xy 48.2600 281.9400)) (stroke (width 0) (type default)) (uuid d91821c4-4d3b-42b4-a858-eaad2dccc322))
+(label "AIN2_D8" (at 48.2600 281.9400 180) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid 7824d59b-6d63-470c-98e0-a8e95890e0e2))
+(wire (pts (xy 58.4200 287.0200) (xy 48.2600 287.0200)) (stroke (width 0) (type default)) (uuid 87232432-1edd-4aa9-903e-ce2d8ed65a61))
+(label "PWM_R_D6" (at 48.2600 287.0200 180) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid b2a7b30e-8c14-4e95-bea5-189986716f7e))
+(wire (pts (xy 58.4200 292.1000) (xy 48.2600 292.1000)) (stroke (width 0) (type default)) (uuid 02c02cb9-950c-4887-b9e5-d6a82c3983f7))
+(label "BIN1_D9" (at 48.2600 292.1000 180) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid 479dbd68-a344-4169-924e-0bd798856eed))
+(wire (pts (xy 58.4200 297.1800) (xy 48.2600 297.1800)) (stroke (width 0) (type default)) (uuid 410c32cf-48d7-442a-923f-b13ef28dc0f0))
+(label "BIN2_D10" (at 48.2600 297.1800 180) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid 2e2e8aa7-0200-4a40-adff-0d6ee413bf8f))
+(wire (pts (xy 109.2200 251.4600) (xy 119.3800 251.4600)) (stroke (width 0) (type default)) (uuid e8be85cb-9a4d-4b17-8f46-d2af65553d6a))
+(label "MOTOR_L1" (at 119.3800 251.4600 0) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid 9339c159-f5c1-4fe2-bc6c-c6cd5e932957))
+(wire (pts (xy 109.2200 256.5400) (xy 119.3800 256.5400)) (stroke (width 0) (type default)) (uuid c121bd58-b268-40d7-8f84-3689554535f5))
+(label "MOTOR_L2" (at 119.3800 256.5400 0) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid d2f87017-ee70-4007-8e85-5b02468bc3a0))
+(wire (pts (xy 109.2200 261.6200) (xy 119.3800 261.6200)) (stroke (width 0) (type default)) (uuid 812a9be8-cf15-4c85-8727-8efe05196b1c))
+(label "MOTOR_R1" (at 119.3800 261.6200 0) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid 326984cc-85b5-4003-8068-1f606eaa6892))
+(wire (pts (xy 109.2200 266.7000) (xy 119.3800 266.7000)) (stroke (width 0) (type default)) (uuid 6970cb54-403c-4caf-9904-71b655f54770))
+(label "MOTOR_R2" (at 119.3800 266.7000 0) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid b081fee1-755b-4527-a8bb-a91eb92f8e9a))
+(symbol (lib_id "FirstLight:TB6612_CARRIER") (at 83.82 274.32 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid 378f62b5-a129-46e3-b348-272490300989)(property "Reference" "U2" (at 83.82 241.29999999999998 0) (effects (font (size 1.27 1.27))))(property "Value" "Pololu 713 / module headers" (at 83.82 243.84 0) (effects (font (size 1.016 1.016))))(pin "VMOT" (uuid a45ce808-6bb5-405e-8a97-e67983b2d4b4))(pin "VCC" (uuid 4ab1f555-cf25-402e-8a91-d38fec352a22))(pin "GND" (uuid de12abf3-9db2-46d6-88e6-135593902446))(pin "STBY" (uuid 45ac9d37-8ea8-49d8-bcb0-7db86c4d87f7))(pin "PWMA" (uuid 3b04a404-1ce0-428a-a18b-a0205ede62bf))(pin "AIN1" (uuid 4d71df39-b2a7-44c7-bb61-733431c87938))(pin "AIN2" (uuid 590b6f69-3955-4b69-8340-01db2e82123c))(pin "PWMB" (uuid d72b7f3d-eabe-47df-844f-1129e739fc26))(pin "BIN1" (uuid a60fac81-bf44-4943-8068-5f373d2539b6))(pin "BIN2" (uuid 60242125-399e-4736-9538-c87deba0dfbe))(pin "AO1" (uuid 2d650fc0-1012-4a47-840e-f5b668c3b48b))(pin "AO2" (uuid 0482f24d-19c8-41e6-a0d1-594b10401b78))(pin "BO1" (uuid 3165db3c-a481-4307-a990-7c62538241bc))(pin "BO2" (uuid 6b7a8725-4dd6-49f9-83f8-d25c4eb475e1))(instances (project "first_light" (path "/e6e694c7-39e9-42ea-a408-f36d502a0729" (reference "U2") (unit 1)))))
+(wire (pts (xy 190.5000 236.2200) (xy 190.5000 226.0600)) (stroke (width 0) (type default)) (uuid b3868782-09da-4ca2-a024-932c80719b5c))
+(label "MOTOR_L1" (at 190.5000 226.0600 90) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid ba9d6274-d5de-4edd-9dff-437c44d7633c))
+(wire (pts (xy 190.5000 248.9200) (xy 190.5000 259.0800)) (stroke (width 0) (type default)) (uuid be87a652-5809-4775-b556-0bbc1c0bd629))
+(label "MOTOR_L2" (at 190.5000 259.0800 270) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid f7b032ca-2ff9-4909-bc5c-2c9c90640b8a))
+(symbol (lib_id "FirstLight:Motor_DC") (at 190.5 241.3 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid 6a3bd290-f2e6-4005-b8f9-ce5bd5548ebd)(property "Reference" "M1" (at 195.58 238.76000000000002 0) (effects (font (size 1.27 1.27)) (justify left)))(property "Value" "LEFT / stall <=0.8A" (at 195.58 241.3 0) (effects (font (size 1.016 1.016)) (justify left)))(pin "1" (uuid 5edd9ffd-2288-4633-85ee-46547f35eee5))(pin "2" (uuid ca7c76dc-e8f7-41ff-901f-d072c0e136c7))(instances (project "first_light" (path "/e6e694c7-39e9-42ea-a408-f36d502a0729" (reference "M1") (unit 1)))))
+(wire (pts (xy 190.5000 287.0200) (xy 190.5000 276.8600)) (stroke (width 0) (type default)) (uuid ed2e2282-677b-4f90-b746-b700dbcd90d9))
+(label "MOTOR_R1" (at 190.5000 276.8600 90) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid bd2d93f1-b78a-4c9c-84b1-94b64493b76b))
+(wire (pts (xy 190.5000 299.7200) (xy 190.5000 309.8800)) (stroke (width 0) (type default)) (uuid 4edd7fb8-1e1c-48ca-a621-3f95d62258f4))
+(label "MOTOR_R2" (at 190.5000 309.8800 270) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid de8a4ea5-8093-4942-a240-8794dc411598))
+(symbol (lib_id "FirstLight:Motor_DC") (at 190.5 292.1 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid db2cb7ac-46f1-449c-92ea-9e2a9a336207)(property "Reference" "M2" (at 195.58 289.56 0) (effects (font (size 1.27 1.27)) (justify left)))(property "Value" "RIGHT / stall <=0.8A" (at 195.58 292.1 0) (effects (font (size 1.016 1.016)) (justify left)))(pin "1" (uuid f997d771-780a-477c-8ae1-79765a0ba175))(pin "2" (uuid da0e737b-f37c-4698-9dc1-9f34199ada7b))(instances (project "first_light" (path "/e6e694c7-39e9-42ea-a408-f36d502a0729" (reference "M2") (unit 1)))))
+(wire (pts (xy 40.6400 347.9800) (xy 30.4800 347.9800)) (stroke (width 0) (type default)) (uuid 475d13a8-61cc-4463-99f5-1c810155e13a))
+(label "LOGIC_5V" (at 30.4800 347.9800 180) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid be32222c-f1c4-481a-8670-b6301d53d53a))
+(wire (pts (xy 40.6400 353.0600) (xy 30.4800 353.0600)) (stroke (width 0) (type default)) (uuid 365e2d68-b87f-447b-b647-3daa08e5aabb))
+(label "GND" (at 30.4800 353.0600 180) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid ae1908ad-9144-4898-b985-eb46eaa0b019))
+(wire (pts (xy 40.6400 358.1400) (xy 30.4800 358.1400)) (stroke (width 0) (type default)) (uuid 8c47ffeb-a84d-4827-b471-3f15119722c0))
+(label "ENC_L_D2" (at 30.4800 358.1400 180) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid 039b930b-e152-4455-b262-ebb00fa19b44))
+(symbol (lib_id "FirstLight:ENCODER") (at 63.5 353.06 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid 1fa6b6e3-08ab-49dc-908f-d2d0105cf8a9)(property "Reference" "U7" (at 63.5 337.82 0) (effects (font (size 1.27 1.27))))(property "Value" "LEFT encoder / 5V output" (at 63.5 340.35999999999996 0) (effects (font (size 1.016 1.016))))(pin "1" (uuid 51b14c0c-03a5-4acb-bb96-281e545b29f6))(pin "2" (uuid a95c05b3-15ff-4fc2-9754-3f93a787a845))(pin "3" (uuid 5a7f0e59-a8e2-4450-98b7-d39e54b3ade8))(instances (project "first_light" (path "/e6e694c7-39e9-42ea-a408-f36d502a0729" (reference "U7") (unit 1)))))
+(wire (pts (xy 144.7800 347.9800) (xy 134.6200 347.9800)) (stroke (width 0) (type default)) (uuid f8e5a3f4-be6a-4a9f-bc98-4d604f90d95f))
+(label "LOGIC_5V" (at 134.6200 347.9800 180) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid a0101b20-d6dc-4fef-bd7b-a83c845c7634))
+(wire (pts (xy 144.7800 353.0600) (xy 134.6200 353.0600)) (stroke (width 0) (type default)) (uuid f819ac57-13dc-4d7c-a062-e1705b4f4257))
+(label "GND" (at 134.6200 353.0600 180) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid 73841143-9798-45d9-8f90-3118686e0761))
+(wire (pts (xy 144.7800 358.1400) (xy 134.6200 358.1400)) (stroke (width 0) (type default)) (uuid cb171590-f693-4b15-a5c8-d9c706bb58a7))
+(label "ENC_R_D3" (at 134.6200 358.1400 180) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid 777295db-6c9d-41e7-af7e-a82f65bf08d1))
+(symbol (lib_id "FirstLight:ENCODER") (at 167.64 353.06 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid 25c7fc7d-b8dd-4992-bd3f-a0e41af1a089)(property "Reference" "U8" (at 167.64 337.82 0) (effects (font (size 1.27 1.27))))(property "Value" "RIGHT encoder / 5V output" (at 167.64 340.35999999999996 0) (effects (font (size 1.016 1.016))))(pin "1" (uuid 34d8e22e-3a06-4e78-99b8-97c9fa617219))(pin "2" (uuid f45af7cf-b3b9-44e6-995f-a06227e39786))(pin "3" (uuid 797052c2-4851-4315-a3eb-338bfaf11c4d))(instances (project "first_light" (path "/e6e694c7-39e9-42ea-a408-f36d502a0729" (reference "U8") (unit 1)))))
+(text "03  UNO / USB HOST" (at 237 38 0) (effects (font (size 1.8 1.8)) (justify left bottom)) (uuid a758af9b-c953-4bfd-9a8c-e85fe21d59ad))
+(wire (pts (xy 266.7000 81.2800) (xy 256.5400 81.2800)) (stroke (width 0) (type default)) (uuid 85a02cf6-569c-4e06-8bfa-633b3905d9ed))
+(label "ENC_L_D2" (at 256.5400 81.2800 180) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid d149a5c5-332a-4f05-9d67-154d33e5fe8b))
+(wire (pts (xy 266.7000 86.3600) (xy 256.5400 86.3600)) (stroke (width 0) (type default)) (uuid e95455f9-b146-42c2-b70b-b0cdf6e263a6))
+(label "ENC_R_D3" (at 256.5400 86.3600 180) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid cf82cc42-3d3f-49b8-ac62-85a51a496d4d))
+(wire (pts (xy 266.7000 91.4400) (xy 256.5400 91.4400)) (stroke (width 0) (type default)) (uuid 9c834825-ff77-4ed3-8ae6-f804cbab32d9))
+(label "STBY_D4" (at 256.5400 91.4400 180) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid 02e53c0d-ba48-4a68-8a68-7bfdc5a33c34))
+(wire (pts (xy 266.7000 96.5200) (xy 256.5400 96.5200)) (stroke (width 0) (type default)) (uuid 6193ff7e-1b1f-4e09-8651-726fffbaa02c))
+(label "PWM_L_D5" (at 256.5400 96.5200 180) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid cb94e2fd-b973-420b-abe1-6db8ef79ba57))
+(wire (pts (xy 266.7000 101.6000) (xy 256.5400 101.6000)) (stroke (width 0) (type default)) (uuid b334edc8-1ca9-460a-bc27-7ac90e6cbe65))
+(label "PWM_R_D6" (at 256.5400 101.6000 180) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid 81617418-29c2-4675-b6c5-ebdd40b84757))
+(wire (pts (xy 266.7000 106.6800) (xy 256.5400 106.6800)) (stroke (width 0) (type default)) (uuid 2e001ca6-d54f-49dd-a790-9f023d97157c))
+(label "AIN1_D7" (at 256.5400 106.6800 180) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid 3240689d-c04e-420f-a71d-d3381c785533))
+(wire (pts (xy 266.7000 111.7600) (xy 256.5400 111.7600)) (stroke (width 0) (type default)) (uuid 6d4ca8b7-9063-467e-abed-5e3eb6186b5b))
+(label "AIN2_D8" (at 256.5400 111.7600 180) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid 5a3fccfa-5eca-4ed0-8720-22f331f1bcf6))
+(wire (pts (xy 266.7000 116.8400) (xy 256.5400 116.8400)) (stroke (width 0) (type default)) (uuid a48ef2e6-5e23-4802-803b-68517f455866))
+(label "BIN1_D9" (at 256.5400 116.8400 180) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid 655efe52-d2d6-4aa2-b3af-0e2389e33b59))
+(wire (pts (xy 266.7000 121.9200) (xy 256.5400 121.9200)) (stroke (width 0) (type default)) (uuid 08ba62e0-1582-4986-ab20-0b77477db6ec))
+(label "BIN2_D10" (at 256.5400 121.9200 180) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid 1b9a127a-8d95-4a8a-9916-7fd8d26c26a3))
+(wire (pts (xy 266.7000 127.0000) (xy 256.5400 127.0000)) (stroke (width 0) (type default)) (uuid 2e9a9267-d31c-498f-9e33-80e9c2ed9420))
+(label "TRIG_D11" (at 256.5400 127.0000 180) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid 607513c9-8156-4cf0-8683-f065dd2c35dc))
+(wire (pts (xy 266.7000 132.0800) (xy 256.5400 132.0800)) (stroke (width 0) (type default)) (uuid a9b65ff5-fcdf-4609-97ce-1ca1d42ca153))
+(label "ECHO_D12" (at 256.5400 132.0800 180) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid 4ecb3154-e2ac-49e3-a4cf-c13318652225))
+(wire (pts (xy 266.7000 137.1600) (xy 256.5400 137.1600)) (stroke (width 0) (type default)) (uuid c3a6ac74-c871-4d85-b92e-d54d25a5ab6b))
+(label "FOG_D13" (at 256.5400 137.1600 180) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid 98dd6899-dda7-4a0b-b05c-a2c654b3745e))
+(wire (pts (xy 337.8200 81.2800) (xy 347.9800 81.2800)) (stroke (width 0) (type default)) (uuid cd1507f5-6f8e-41ad-9b82-700e6838fd03))
+(label "LINE_L_A0" (at 347.9800 81.2800 0) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid 4348fdad-4288-490d-a290-83873c511bdd))
+(wire (pts (xy 337.8200 86.3600) (xy 347.9800 86.3600)) (stroke (width 0) (type default)) (uuid 6b307515-eb60-4d8f-a20f-bac5da61175a))
+(label "LINE_C_A1" (at 347.9800 86.3600 0) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid d1f11dd7-96ee-4a66-b4d3-4798ac9ced28))
+(wire (pts (xy 337.8200 91.4400) (xy 347.9800 91.4400)) (stroke (width 0) (type default)) (uuid ffe6a140-a5d0-4cf0-9a7d-75fde78b281e))
+(label "LINE_R_A2" (at 347.9800 91.4400 0) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid c35f41fe-23d5-4d00-bb9d-20046a8bf4fc))
+(wire (pts (xy 337.8200 96.5200) (xy 347.9800 96.5200)) (stroke (width 0) (type default)) (uuid 6849691c-0438-4df3-8821-df8ec741b4e0))
+(label "ESTOP_A3" (at 347.9800 96.5200 0) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid 94e9f143-4192-4e51-9be8-17563eef183d))
+(wire (pts (xy 337.8200 101.6000) (xy 347.9800 101.6000)) (stroke (width 0) (type default)) (uuid 9ccd8ebb-c770-48b9-a703-80bebedddd17))
+(label "SDA_5V" (at 347.9800 101.6000 0) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid 9a22e607-68b5-4264-9730-b3b058b393b0))
+(wire (pts (xy 337.8200 106.6800) (xy 347.9800 106.6800)) (stroke (width 0) (type default)) (uuid 3244ed3c-ae03-4a50-9c61-a48a0bfd4cf8))
+(label "SCL_5V" (at 347.9800 106.6800 0) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid 8162359f-054d-411b-8241-117effcd6661))
+(wire (pts (xy 337.8200 111.7600) (xy 347.9800 111.7600)) (stroke (width 0) (type default)) (uuid 009948ad-9769-43bf-85d8-2a906e4dd647))
+(label "LOGIC_5V" (at 347.9800 111.7600 0) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid 47cea1d9-f974-4fc7-8c48-a457cf5d0873))
+(wire (pts (xy 337.8200 116.8400) (xy 347.9800 116.8400)) (stroke (width 0) (type default)) (uuid be773a2d-1125-447a-b6c6-775291a3e802))
+(label "LOGIC_3V3" (at 347.9800 116.8400 0) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid dace8e9d-7a3e-44c5-b4d5-45aea02e719b))
+(wire (pts (xy 337.8200 121.9200) (xy 347.9800 121.9200)) (stroke (width 0) (type default)) (uuid dd0775ac-41dc-47d4-8653-b1cd32ddb6d2))
+(label "GND" (at 347.9800 121.9200 0) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid cae47aa4-f9b4-4a7f-9739-c80f003a9ef3))
+(wire (pts (xy 337.8200 127.0000) (xy 347.9800 127.0000)) (stroke (width 0) (type default)) (uuid 325e50b8-3807-4288-b9c1-073bc93ec19d))
+(label "USB_VBUS" (at 347.9800 127.0000 0) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid 978984d3-875e-4755-8bfe-6f517a6269ac))
+(wire (pts (xy 337.8200 132.0800) (xy 347.9800 132.0800)) (stroke (width 0) (type default)) (uuid 4960e1f1-e782-46ec-9264-a8caab4eeb1c))
+(label "USB_DM" (at 347.9800 132.0800 0) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid 64a93b4e-96d3-491f-b4af-3a4520ff3270))
+(wire (pts (xy 337.8200 137.1600) (xy 347.9800 137.1600)) (stroke (width 0) (type default)) (uuid 4f52693e-1f63-45b7-aa29-9c5f38920e02))
+(label "USB_DP" (at 347.9800 137.1600 0) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid da5e26bd-3ea5-4749-b52a-7041fbc4b6b8))
+(symbol (lib_id "FirstLight:UNO_R3") (at 302.26 109.22 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid 58e916e5-2e71-49ee-8336-40a169a08ae6)(property "Reference" "U1" (at 302.26 71.11999999999999 0) (effects (font (size 1.27 1.27))))(property "Value" "Arduino Uno R3 / used headers" (at 302.26 73.65999999999998 0) (effects (font (size 1.016 1.016))))(pin "D2" (uuid 4f5ba25e-5a6b-43c6-b746-a4927b9a97bf))(pin "D3" (uuid 8d15275d-53d4-4694-9583-c4b6213a164a))(pin "D4" (uuid c8ce2100-6c5c-4495-9813-e63766b8b264))(pin "D5" (uuid 634c6d32-a37f-45ac-8c14-58ccba9e24d0))(pin "D6" (uuid f1d61752-2fa0-4ccc-a769-b204869e724c))(pin "D7" (uuid e7c5868d-2fa9-4163-b58b-09f394b663c7))(pin "D8" (uuid 520f42df-263d-4ee7-935d-a334357be3c5))(pin "D9" (uuid 47b17375-f441-4643-bc2e-e3ee4e3c41c6))(pin "D10" (uuid 558e4fb4-49ba-4f3b-85a1-55cf0ef56da6))(pin "D11" (uuid 147fb32d-4be7-41b4-ba03-7b8a43551ee1))(pin "D12" (uuid c0dc0a29-9489-416a-80dd-499823a83c32))(pin "D13" (uuid ce599084-a29a-49ac-a809-92a2c2a50164))(pin "A0" (uuid f6e3c8a9-939b-4617-8d08-da6a4b479dd3))(pin "A1" (uuid a92a7a58-2990-4894-92ab-33cc4169d0c9))(pin "A2" (uuid 6712db43-1d76-4a64-ab46-cf3bda1363e8))(pin "A3" (uuid 36e55463-2b9a-405f-b8da-f63c8d5de58c))(pin "A4" (uuid cb10e32f-5425-48ba-a68a-ea92bb233206))(pin "A5" (uuid a028fee5-2d01-4608-bfa2-f9c3ea6f1f74))(pin "5V" (uuid 910e9b9a-fea4-4bd5-a2bd-34d8e0893c0e))(pin "3V3" (uuid 65266155-ad4d-4a17-a64f-35665a02ac9b))(pin "GND" (uuid 79717ad7-6aff-4d47-b85c-dad464ee3f3a))(pin "USB1" (uuid f4a510cd-2448-4ff7-9e36-c45cd24cd573))(pin "USB2" (uuid 93347775-632c-4b5f-8d71-9f58c24802de))(pin "USB3" (uuid c6625f31-3627-44ba-afa5-4da278343233))(instances (project "first_light" (path "/e6e694c7-39e9-42ea-a408-f36d502a0729" (reference "U1") (unit 1)))))
+(text "A3, D2, D3: internal pull-ups enabled in firmware." (at 241.3 164 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid 8bf68f70-214b-4020-be8b-c2f2cef0553b))
+(text "USB powers Uno. No second 5V feed / no VIN motor feed." (at 241.3 170 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid 1987bac6-92db-4e48-a160-352c27785627))
+(wire (pts (xy 254.0000 191.7700) (xy 254.0000 181.6100)) (stroke (width 0) (type default)) (uuid 69b9444a-4067-4878-895a-738804ce0003))
+(label "STBY_D4" (at 254.0000 181.6100 90) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid 8e737d22-ba72-47e3-acec-b5f2bcdfa284))
+(wire (pts (xy 254.0000 199.3900) (xy 254.0000 209.5500)) (stroke (width 0) (type default)) (uuid ec2ba3f4-b278-4d9b-80f2-3366785c59dc))
+(label "GND" (at 254.0000 209.5500 270) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid 3614e31f-8ec4-44a1-bc31-ba07cd4f14d1))
+(symbol (lib_id "FirstLight:R") (at 254 195.58 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid ff1eff41-5352-48b8-9796-01b135ed4b60)(property "Reference" "R1" (at 259.08 193.04000000000002 0) (effects (font (size 1.27 1.27)) (justify left)))(property "Value" "10k / STBY pull-down" (at 259.08 195.58 0) (effects (font (size 1.016 1.016)) (justify left)))(pin "1" (uuid 88071f6c-5718-451e-a746-48dc0f08cad5))(pin "2" (uuid d66f0050-dd7c-4703-b04f-1556c05203e1))(instances (project "first_light" (path "/e6e694c7-39e9-42ea-a408-f36d502a0729" (reference "R1") (unit 1)))))
+(wire (pts (xy 312.4200 191.7700) (xy 312.4200 181.6100)) (stroke (width 0) (type default)) (uuid 9b5a19e5-aee2-48aa-bfc2-4c90ef0ff80a))
+(label "LOGIC_5V" (at 312.4200 181.6100 90) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid 2ea96679-9176-4853-a510-ad9707afa31e))
+(wire (pts (xy 312.4200 199.3900) (xy 312.4200 209.5500)) (stroke (width 0) (type default)) (uuid 25abd0c0-641e-4e5c-b85e-28681bdb34a9))
+(label "FOG_D13" (at 312.4200 209.5500 270) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid bf9556e1-3189-4b76-9ba3-3f713e290171))
+(symbol (lib_id "FirstLight:R") (at 312.42 195.58 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid 5ed69bec-2d39-497a-a1c9-222f83e3578f)(property "Reference" "R2" (at 317.5 193.04000000000002 0) (effects (font (size 1.27 1.27)) (justify left)))(property "Value" "10k / FOG pull-up" (at 317.5 195.58 0) (effects (font (size 1.016 1.016)) (justify left)))(pin "1" (uuid b8facd08-9b2d-497e-9925-777a85cb5876))(pin "2" (uuid 94705122-aadb-4a22-865b-3737315bdc5f))(instances (project "first_light" (path "/e6e694c7-39e9-42ea-a408-f36d502a0729" (reference "R2") (unit 1)))))
+(wire (pts (xy 360.6800 195.5800) (xy 350.5200 195.5800)) (stroke (width 0) (type default)) (uuid 6d050ba4-34b7-4a83-bc9f-77567355a28d))
+(label "FOG_D13" (at 350.5200 195.5800 180) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid 42ea3173-2cf5-494d-aa4d-6920de299884))
+(wire (pts (xy 370.8400 195.5800) (xy 381.0000 195.5800)) (stroke (width 0) (type default)) (uuid 98056b70-6d3c-477f-ab8c-3cfff124f6e7))
+(label "GND" (at 381.0000 195.5800 0) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid 1d775c03-4c83-444d-b27d-00c55f48d4ae))
+(symbol (lib_id "FirstLight:SW_SPST") (at 365.76 195.58 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid 355ad756-aee2-4d41-953d-6319ca8c53b2)(property "Reference" "SW4" (at 365.76 182.5 0) (effects (font (size 1.27 1.27))))(property "Value" "FOG DEMO" (at 365.76 185.04000000000002 0) (effects (font (size 1.016 1.016))))(pin "1" (uuid 11b87632-b53c-4ae3-be61-da4cecd9eb22))(pin "2" (uuid 06d4a76a-9c0d-4cef-8bb5-9056c11ad6fa))(instances (project "first_light" (path "/e6e694c7-39e9-42ea-a408-f36d502a0729" (reference "SW4") (unit 1)))))
+(wire (pts (xy 416.5600 48.2600) (xy 406.4000 48.2600)) (stroke (width 0) (type default)) (uuid e2c8d1b5-c276-4dff-9a0b-9f3540176fad))
+(label "PI_5V" (at 406.4000 48.2600 180) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid cdf8013d-62ec-44df-b4bc-d87a94d24fb2))
+(wire (pts (xy 416.5600 53.3400) (xy 406.4000 53.3400)) (stroke (width 0) (type default)) (uuid 0bd618aa-a253-4a64-a4b1-4546d60812a7))
+(label "GND" (at 406.4000 53.3400 180) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid 2460ce4d-321b-4b9b-9e38-67c5151490ae))
+(symbol (lib_id "FirstLight:SUPPLY_CONNECTOR") (at 431.8 53.34 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid c922ed09-834e-4aff-b5f6-5e3140c7abad)(property "Reference" "J2" (at 431.8 38.10000000000001 0) (effects (font (size 1.27 1.27))))(property "Value" "Regulated 5.1V / 3A USB-C" (at 431.8 40.64000000000001 0) (effects (font (size 1.016 1.016))))(pin "1" (uuid 3fdb1793-ce6a-4bc1-8214-d7a292f81a76))(pin "2" (uuid 375dca92-8621-4ff8-ae7a-8296c58c0a08))(instances (project "first_light" (path "/e6e694c7-39e9-42ea-a408-f36d502a0729" (reference "J2") (unit 1)))))
+(wire (pts (xy 426.7200 106.6800) (xy 416.5600 106.6800)) (stroke (width 0) (type default)) (uuid 7ce2ce91-d8e6-4b26-a452-fe23a539ba77))
+(label "PI_5V" (at 416.5600 106.6800 180) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid a1780cdc-c5e4-4e07-93d2-81b6236aa96b))
+(wire (pts (xy 426.7200 111.7600) (xy 416.5600 111.7600)) (stroke (width 0) (type default)) (uuid 58600c08-8be1-4f85-b6be-a0cdeb026f5c))
+(label "GND" (at 416.5600 111.7600 180) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid 1071416b-e6f7-4162-95ad-1274cb2151f9))
+(wire (pts (xy 487.6800 106.6800) (xy 497.8400 106.6800)) (stroke (width 0) (type default)) (uuid 99b0ce78-38be-4aa9-a726-4d9193c5f16a))
+(label "USB_VBUS" (at 497.8400 106.6800 0) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid dd0e0918-2afc-4135-abbd-6fdb76555335))
+(wire (pts (xy 487.6800 111.7600) (xy 497.8400 111.7600)) (stroke (width 0) (type default)) (uuid 7881bef6-344a-444b-bc67-54a4bf549a27))
+(label "USB_DM" (at 497.8400 111.7600 0) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid cd0f93a7-5513-439c-886e-4a22ab447b95))
+(wire (pts (xy 487.6800 116.8400) (xy 497.8400 116.8400)) (stroke (width 0) (type default)) (uuid 9442bae1-fdcc-46b1-9745-57d6d3956950))
+(label "USB_DP" (at 497.8400 116.8400 0) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid 83989f99-ef4e-4a59-aaa6-65f22f1495dc))
+(symbol (lib_id "FirstLight:RPI4_HOST") (at 457.2 111.76 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid 33023dda-d168-43af-9e88-481093e245a8)(property "Reference" "U9" (at 457.2 96.52000000000001 0) (effects (font (size 1.27 1.27))))(property "Value" "Raspberry Pi 4B / USB host" (at 457.2 99.06 0) (effects (font (size 1.016 1.016))))(pin "PWR" (uuid 81d5bdc6-c1f0-4088-b0eb-aefc73480f29))(pin "GND" (uuid be209088-0102-430b-8bef-9d0cfae2d45b))(pin "VBUS" (uuid 722db340-5954-4802-9275-550fdba0d949))(pin "DM" (uuid 8b72bb69-d553-4050-9830-16613caaf6c1))(pin "DP" (uuid 84b57d1f-32a4-429f-af85-9407ab610d5d))(instances (project "first_light" (path "/e6e694c7-39e9-42ea-a408-f36d502a0729" (reference "U9") (unit 1)))))
+(text "USB-A to USB-B data cable; D+/D- stay inside shielded cable." (at 393.7 142.24 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid d8d59753-98eb-4109-8b0c-05a03bfc5c2e))
+(text "Wi-Fi: V2V UDP 5005 / telemetry UDP 5006." (at 393.7 148.59 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid 2bdb1c0d-aeef-4ade-a23a-700458062bc7))
+(text "Drive disabled 300ms after last valid USB serial command." (at 237 219.71 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid 24b663f1-39b6-4bce-8761-3e00d6f8d37a))
+(text "04  RANGE / LINE SENSORS" (at 237 236 0) (effects (font (size 1.8 1.8)) (justify left bottom)) (uuid 374fa4ef-e3d8-42eb-91b8-6643e78e22a5))
+(wire (pts (xy 264.1600 261.6200) (xy 254.0000 261.6200)) (stroke (width 0) (type default)) (uuid cd76023b-3f89-4097-b890-af860caa8366))
+(label "LOGIC_5V" (at 254.0000 261.6200 180) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid 5ebf4709-b5f5-46c5-95ff-729f4cd536b9))
+(wire (pts (xy 264.1600 266.7000) (xy 254.0000 266.7000)) (stroke (width 0) (type default)) (uuid 73c56a7a-119b-4821-b073-a9d433e71f8e))
+(label "TRIG_D11" (at 254.0000 266.7000 180) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid 73510e21-3bf2-4c77-86d9-a62b8adf1f64))
+(wire (pts (xy 264.1600 271.7800) (xy 254.0000 271.7800)) (stroke (width 0) (type default)) (uuid 2820b8a7-b4bb-4e70-aee9-b0e10d9345e8))
+(label "ECHO_D12" (at 254.0000 271.7800 180) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid 494ea86f-36da-451a-b480-e31619eeed70))
+(wire (pts (xy 264.1600 276.8600) (xy 254.0000 276.8600)) (stroke (width 0) (type default)) (uuid b4e50a73-5d41-48f4-a5d6-52fe57f2b48b))
+(label "GND" (at 254.0000 276.8600 180) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid 788e01be-c7db-460a-9166-133769793f48))
+(symbol (lib_id "FirstLight:HCSR04") (at 284.48 269.24 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid 269009ee-2251-4dc7-87f7-1ace0ff67509)(property "Reference" "U3" (at 284.48 251.46 0) (effects (font (size 1.27 1.27))))(property "Value" "HC-SR04 / 5V" (at 284.48 254.00000000000003 0) (effects (font (size 1.016 1.016))))(pin "1" (uuid 3172e3cb-4d03-4581-839b-b605d93ae86d))(pin "2" (uuid 8af715d1-f4b5-4923-8c3c-507b5a0b4a5c))(pin "3" (uuid 605ba0c7-73cd-44cc-8f30-08188131bb36))(pin "4" (uuid d0eba8c8-340d-477d-a3e8-ac05a7d8f05c))(instances (project "first_light" (path "/e6e694c7-39e9-42ea-a408-f36d502a0729" (reference "U3") (unit 1)))))
+(wire (pts (xy 243.8400 345.4400) (xy 233.6800 345.4400)) (stroke (width 0) (type default)) (uuid 4249374e-963c-482b-95ce-de48670c6b4f))
+(label "LOGIC_5V" (at 233.6800 345.4400 180) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid ec000078-07c7-4169-826e-7efa1dd75a70))
+(wire (pts (xy 243.8400 350.5200) (xy 233.6800 350.5200)) (stroke (width 0) (type default)) (uuid 1dc35280-16c9-43ad-9179-a992b3491842))
+(label "GND" (at 233.6800 350.5200 180) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid 581b8143-7987-4a3a-b971-1a0f2eb6831c))
+(wire (pts (xy 243.8400 355.6000) (xy 233.6800 355.6000)) (stroke (width 0) (type default)) (uuid 21bbeb44-c8a8-4a02-a32d-ecc1d401917c))
+(label "LINE_L_A0" (at 233.6800 355.6000 180) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid b414825d-8a7e-4143-82b7-46bb48c54468))
+(symbol (lib_id "FirstLight:ANALOG_LINE") (at 266.7 350.52 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid b0eabf5f-9470-4e8f-a77c-4c0efed83d43)(property "Reference" "U4" (at 266.7 335.28 0) (effects (font (size 1.27 1.27))))(property "Value" "LEFT analog reflectance" (at 266.7 337.81999999999994 0) (effects (font (size 1.016 1.016))))(pin "1" (uuid 8efb820a-0918-41a7-9761-b7480516c927))(pin "2" (uuid a153c38e-df0a-42d6-86b8-323cef8323f3))(pin "3" (uuid 0682fda6-7b89-42fd-9e07-90a1e8d6155d))(instances (project "first_light" (path "/e6e694c7-39e9-42ea-a408-f36d502a0729" (reference "U4") (unit 1)))))
+(wire (pts (xy 345.4400 345.4400) (xy 335.2800 345.4400)) (stroke (width 0) (type default)) (uuid ffa89f2b-80a7-42eb-9a79-fdb94ef712c3))
+(label "LOGIC_5V" (at 335.2800 345.4400 180) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid b61667e6-ad7b-48a1-b295-74c9eb5c541e))
+(wire (pts (xy 345.4400 350.5200) (xy 335.2800 350.5200)) (stroke (width 0) (type default)) (uuid 94a4ca24-6d4c-4481-a026-2c0b22bd7e7d))
+(label "GND" (at 335.2800 350.5200 180) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid 14a3e378-4866-441a-8639-22c151e0b09c))
+(wire (pts (xy 345.4400 355.6000) (xy 335.2800 355.6000)) (stroke (width 0) (type default)) (uuid 2230d291-fc37-4bce-a618-8b2efb1b4ee3))
+(label "LINE_C_A1" (at 335.2800 355.6000 180) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid 60c6df3a-b441-4e5b-b71c-fc6714f618c4))
+(symbol (lib_id "FirstLight:ANALOG_LINE") (at 368.3 350.52 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid 4b49b7cf-5b71-455c-95a1-c0326d6369ee)(property "Reference" "U5" (at 368.3 335.28 0) (effects (font (size 1.27 1.27))))(property "Value" "CENTER analog reflectance" (at 368.3 337.81999999999994 0) (effects (font (size 1.016 1.016))))(pin "1" (uuid 579fb6af-db52-4a28-ac35-757da1add421))(pin "2" (uuid 23ae1f71-367b-43c9-8584-d4387d7541cf))(pin "3" (uuid ad1cf48f-be7a-4ffc-a33e-cc6a2546b6d3))(instances (project "first_light" (path "/e6e694c7-39e9-42ea-a408-f36d502a0729" (reference "U5") (unit 1)))))
+(wire (pts (xy 447.0400 345.4400) (xy 436.8800 345.4400)) (stroke (width 0) (type default)) (uuid 06553b4f-9eff-4bec-b1f7-1c67b8a742e3))
+(label "LOGIC_5V" (at 436.8800 345.4400 180) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid b5adb296-6fee-4b73-8438-9c1f7e32f54d))
+(wire (pts (xy 447.0400 350.5200) (xy 436.8800 350.5200)) (stroke (width 0) (type default)) (uuid 5e23ff3b-13f7-4c8a-b74f-d2f5a16a07ef))
+(label "GND" (at 436.8800 350.5200 180) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid 63caffe1-40f1-4077-a331-60d00d746140))
+(wire (pts (xy 447.0400 355.6000) (xy 436.8800 355.6000)) (stroke (width 0) (type default)) (uuid d123b60e-e8b2-41a1-b19b-cbeb6f8e5e27))
+(label "LINE_R_A2" (at 436.8800 355.6000 180) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid 06eaeae6-c2b1-48eb-bc52-05d094d92407))
+(symbol (lib_id "FirstLight:ANALOG_LINE") (at 469.9 350.52 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid f1de3f32-c4df-4bfd-a613-d79b4e1dc546)(property "Reference" "U6" (at 469.9 335.28 0) (effects (font (size 1.27 1.27))))(property "Value" "RIGHT analog reflectance" (at 469.9 337.81999999999994 0) (effects (font (size 1.016 1.016))))(pin "1" (uuid ca70523d-77b6-4f32-9c04-c1642e09c53a))(pin "2" (uuid cfacdfd3-7716-42ad-8a30-1319db218a0c))(pin "3" (uuid 8d5a9212-4ff5-445c-b42d-e0821f40dcfb))(instances (project "first_light" (path "/e6e694c7-39e9-42ea-a408-f36d502a0729" (reference "U6") (unit 1)))))
+(text "Analog outputs: 0-5V. HC-SR04 ECHO goes to Uno D12, never Pi GPIO." (at 237 380 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid dcfcf1af-74cd-483b-b35e-2e3dba8d7cfb))
+(text "05  MPU6050 / DISCRETE I2C LEVEL SHIFT" (at 393.7 171.45 0) (effects (font (size 1.8 1.8)) (justify left bottom)) (uuid 943adc3d-63da-46d9-8f7e-bd089ab44ae0))
+(wire (pts (xy 424.1800 218.4400) (xy 414.0200 218.4400)) (stroke (width 0) (type default)) (uuid 92a4e871-319c-4466-be64-597214888be9))
+(label "LOGIC_3V3" (at 414.0200 218.4400 180) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid b4b08707-9b39-44db-a202-e0a8bf9ced8c))
+(wire (pts (xy 431.8000 223.5200) (xy 431.8000 233.6800)) (stroke (width 0) (type default)) (uuid 12df3cf9-7d9f-4a98-a2b8-74506acb70c1))
+(label "SDA_3V3" (at 431.8000 233.6800 270) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid 90864565-1459-4c98-8bf6-419ab134c1bb))
+(wire (pts (xy 431.8000 213.3600) (xy 431.8000 203.2000)) (stroke (width 0) (type default)) (uuid 61475fed-4bd4-4a1b-b560-495b428f4065))
+(label "SDA_5V" (at 431.8000 203.2000 90) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid 725bdf6d-2c5a-4d30-b533-8b56cf5e2222))
+(symbol (lib_id "FirstLight:BSS138") (at 429.26 218.44 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid 151d610f-1965-47e0-b51a-7c713d27b528)(property "Reference" "Q1" (at 438.15 215.9 0) (effects (font (size 1.27 1.27)) (justify left)))(property "Value" "BSS138 / SDA" (at 438.15 218.44 0) (effects (font (size 1.016 1.016)) (justify left)))(pin "1" (uuid ff222c85-66b3-45cb-a74a-0cb4bdb8bdd5))(pin "2" (uuid d704dc96-029b-441b-9e37-cf96a525d026))(pin "3" (uuid a7a1cbe5-96a8-45d1-b03c-b53af56d5240))(instances (project "first_light" (path "/e6e694c7-39e9-42ea-a408-f36d502a0729" (reference "Q1") (unit 1)))))
+(wire (pts (xy 508.0000 218.4400) (xy 497.8400 218.4400)) (stroke (width 0) (type default)) (uuid e2358c93-1bbf-4a6a-b63d-8968e2bebeb3))
+(label "LOGIC_3V3" (at 497.8400 218.4400 180) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid 004056e1-1d70-4fc5-9dca-dbfcfdef9fca))
+(wire (pts (xy 515.6200 223.5200) (xy 515.6200 233.6800)) (stroke (width 0) (type default)) (uuid 6a1704b6-3d85-4b9a-92d6-baf42771eeca))
+(label "SCL_3V3" (at 515.6200 233.6800 270) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid a5b26511-886b-411f-98f5-3b52ec4e4ee7))
+(wire (pts (xy 515.6200 213.3600) (xy 515.6200 203.2000)) (stroke (width 0) (type default)) (uuid 63df8f09-2307-4952-a68c-9a7a9f3c9fda))
+(label "SCL_5V" (at 515.6200 203.2000 90) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid 2b45ce92-54d1-4f78-9b8b-8f78837a3ad1))
+(symbol (lib_id "FirstLight:BSS138") (at 513.08 218.44 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid 0d35720d-6425-4283-afdd-0c29ca298ca0)(property "Reference" "Q2" (at 521.97 215.9 0) (effects (font (size 1.27 1.27)) (justify left)))(property "Value" "BSS138 / SCL" (at 521.97 218.44 0) (effects (font (size 1.016 1.016)) (justify left)))(pin "1" (uuid 0bdef11c-fe47-4038-972b-9a33815789e5))(pin "2" (uuid d9cd924c-382b-478a-a4e1-4963ade281cd))(pin "3" (uuid 1347e6d6-4146-49f6-a149-bb46f9dd54c8))(instances (project "first_light" (path "/e6e694c7-39e9-42ea-a408-f36d502a0729" (reference "Q2") (unit 1)))))
+(wire (pts (xy 403.8600 252.7300) (xy 403.8600 242.5700)) (stroke (width 0) (type default)) (uuid 843f6217-5a2e-45fb-83bd-2dd940f58475))
+(label "LOGIC_5V" (at 403.8600 242.5700 90) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid 26cfc505-5eb0-4d7f-b557-a9dc36da6c9e))
+(wire (pts (xy 403.8600 260.3500) (xy 403.8600 270.5100)) (stroke (width 0) (type default)) (uuid 507add1f-c70d-4743-8843-e080187f3872))
+(label "SDA_5V" (at 403.8600 270.5100 270) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid 276475a7-9ab7-4329-a062-1db69e2a9f61))
+(symbol (lib_id "FirstLight:R") (at 403.86 256.54 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid 1d2ee226-c462-4489-8c93-5fbac509bedb)(property "Reference" "R3" (at 408.94 254.00000000000003 0) (effects (font (size 1.27 1.27)) (justify left)))(property "Value" "4.7k" (at 408.94 256.54 0) (effects (font (size 1.016 1.016)) (justify left)))(pin "1" (uuid e9b760c8-1327-413a-8f48-976261ff9c56))(pin "2" (uuid 260fcd42-a32f-48f2-9353-65bd358d143a))(instances (project "first_light" (path "/e6e694c7-39e9-42ea-a408-f36d502a0729" (reference "R3") (unit 1)))))
+(wire (pts (xy 441.9600 252.7300) (xy 441.9600 242.5700)) (stroke (width 0) (type default)) (uuid 57361513-76d4-4943-9ee0-5e58dd4046bc))
+(label "LOGIC_3V3" (at 441.9600 242.5700 90) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid 80163d7e-1191-4e0b-b456-dd165d7e680c))
+(wire (pts (xy 441.9600 260.3500) (xy 441.9600 270.5100)) (stroke (width 0) (type default)) (uuid d5cbad11-7322-43e6-b6d5-36839b10ddd8))
+(label "SDA_3V3" (at 441.9600 270.5100 270) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid 511f6db3-cfdf-420a-8c38-2f8647805065))
+(symbol (lib_id "FirstLight:R") (at 441.96 256.54 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid 7634ea89-e96b-42d0-bab5-eb4aa674589b)(property "Reference" "R4" (at 447.03999999999996 254.00000000000003 0) (effects (font (size 1.27 1.27)) (justify left)))(property "Value" "4.7k" (at 447.03999999999996 256.54 0) (effects (font (size 1.016 1.016)) (justify left)))(pin "1" (uuid ccfb0a22-d9b3-494c-8e01-7c594635c611))(pin "2" (uuid 317a89bb-b973-4ff1-b5cf-961308227de7))(instances (project "first_light" (path "/e6e694c7-39e9-42ea-a408-f36d502a0729" (reference "R4") (unit 1)))))
+(wire (pts (xy 490.2200 252.7300) (xy 490.2200 242.5700)) (stroke (width 0) (type default)) (uuid b5951efd-b235-4e86-bb73-b26f23960138))
+(label "LOGIC_5V" (at 490.2200 242.5700 90) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid e6f54283-5a71-499d-a7c3-8a215fb6a987))
+(wire (pts (xy 490.2200 260.3500) (xy 490.2200 270.5100)) (stroke (width 0) (type default)) (uuid bf59fc35-9576-4bc8-83cb-3197fb43d1aa))
+(label "SCL_5V" (at 490.2200 270.5100 270) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid 24a40162-8290-428e-a73e-d2e9296b5bca))
+(symbol (lib_id "FirstLight:R") (at 490.22 256.54 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid df6820d2-6fc6-4017-90cd-8d87bdb09c4c)(property "Reference" "R5" (at 495.3 254.00000000000003 0) (effects (font (size 1.27 1.27)) (justify left)))(property "Value" "4.7k" (at 495.3 256.54 0) (effects (font (size 1.016 1.016)) (justify left)))(pin "1" (uuid 686f367b-7820-42b5-89e7-67c399e55c4e))(pin "2" (uuid c5214c88-1e0a-4d54-a868-14bb3562f1e8))(instances (project "first_light" (path "/e6e694c7-39e9-42ea-a408-f36d502a0729" (reference "R5") (unit 1)))))
+(wire (pts (xy 530.8600 252.7300) (xy 530.8600 242.5700)) (stroke (width 0) (type default)) (uuid ba33895b-e022-4180-b6e6-096d272a95f1))
+(label "LOGIC_3V3" (at 530.8600 242.5700 90) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid 6833687e-efc6-452d-8831-3bc69ef4f26a))
+(wire (pts (xy 530.8600 260.3500) (xy 530.8600 270.5100)) (stroke (width 0) (type default)) (uuid 24ba1021-4e27-4091-8fb8-3a5836c6b730))
+(label "SCL_3V3" (at 530.8600 270.5100 270) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid 1f329270-d85e-4ddf-8a41-40e005ce1323))
+(symbol (lib_id "FirstLight:R") (at 530.86 256.54 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid 97e91609-f4bb-45e4-bd25-614b95a39cd9)(property "Reference" "R6" (at 535.94 254.00000000000003 0) (effects (font (size 1.27 1.27)) (justify left)))(property "Value" "4.7k" (at 535.94 256.54 0) (effects (font (size 1.016 1.016)) (justify left)))(pin "1" (uuid d020146b-74cc-4f6d-8e73-12a127434d5a))(pin "2" (uuid fc04c5f3-af9a-4a7d-a2b4-02907b21cb98))(instances (project "first_light" (path "/e6e694c7-39e9-42ea-a408-f36d502a0729" (reference "R6") (unit 1)))))
+(wire (pts (xy 447.0400 295.9100) (xy 436.8800 295.9100)) (stroke (width 0) (type default)) (uuid 4cb210cf-3da6-425a-814b-d6b466bf0f66))
+(label "LOGIC_3V3" (at 436.8800 295.9100 180) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid 9c00788e-6367-4aa0-9bd4-8232d5e9209d))
+(wire (pts (xy 447.0400 300.9900) (xy 436.8800 300.9900)) (stroke (width 0) (type default)) (uuid a2efee0e-e5f0-42eb-9a6c-714ebcb6b9ea))
+(label "GND" (at 436.8800 300.9900 180) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid f56581cd-3555-47c9-8543-d5a4ca416728))
+(wire (pts (xy 447.0400 306.0700) (xy 436.8800 306.0700)) (stroke (width 0) (type default)) (uuid da6074c3-00bd-4386-894c-6320fe18c2a8))
+(label "SCL_3V3" (at 436.8800 306.0700 180) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid abb367f9-8845-4bab-be76-a57fe00d4cea))
+(wire (pts (xy 447.0400 311.1500) (xy 436.8800 311.1500)) (stroke (width 0) (type default)) (uuid 7313a52a-a552-4ff6-95b7-c22d33a78789))
+(label "SDA_3V3" (at 436.8800 311.1500 180) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid e4044e82-54de-48c9-aeba-d489a4faf521))
+(wire (pts (xy 497.8400 295.9100) (xy 508.0000 295.9100)) (stroke (width 0) (type default)) (uuid bfff0497-3069-4417-bad5-006d19f27e19))
+(label "GND" (at 508.0000 295.9100 0) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid 4e57c7c0-792b-41c4-97f1-d9fd0dca929d))
+(no_connect (at 497.8400 300.9900) (uuid cd2bbe48-3926-47bd-921f-018e71ab9f22))
+(symbol (lib_id "FirstLight:MPU6050_MODULE") (at 472.44 303.53 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid 4155b6d8-cd33-45fc-bffb-e38bfb91afa9)(property "Reference" "U10" (at 472.44 285.75 0) (effects (font (size 1.27 1.27))))(property "Value" "MPU6050 / 3.3V breakout" (at 472.44 288.28999999999996 0) (effects (font (size 1.016 1.016))))(pin "VCC" (uuid 2fa7751d-15a0-4ff8-89df-9c28f029c287))(pin "GND" (uuid a5b1e313-5e22-4edb-b30b-2876c04882ab))(pin "SCL" (uuid 51e1ace3-632a-40b2-a25d-3b5bd5d863a0))(pin "SDA" (uuid b2c55e54-707e-458a-8d7b-8a24bb2c8274))(pin "AD0" (uuid ec300fc5-0a7a-4f12-8017-a4a5ef0f024c))(pin "INT" (uuid 2a6227de-ee78-4079-acf9-6ec17929afdd))(instances (project "first_light" (path "/e6e694c7-39e9-42ea-a408-f36d502a0729" (reference "U10") (unit 1)))))
+(text "Q1/Q2: gate=3V3, source=LV, drain=HV; shared ground." (at 393.7 279.4 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid bf0dc4cd-9d37-4e8d-b3d0-e6bbbe4876a7))
+(text "Header module symbols; unused board headers omitted. Not bare-IC pin numbering." (at 20 397.51 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid c9fcba5d-6c28-4645-8129-7c87414cc64f))
+(text "B / 1   |   ALL REPEATED NET LABELS ARE ELECTRICALLY CONNECTED" (at 20 405.13 0) (effects (font (size 1.3 1.3)) (justify left bottom)) (uuid d9162d02-6a28-4658-b814-9dbed07f1840))
+(sheet_instances (path "/" (page "1"))))
