@@ -1,6 +1,8 @@
 # First Light
 
 ---
+Demo Video : [Demo](./First_Light_SIH26007.pptx)
+Video Link : [Video](https://www.youtube.com/watch?v=g4CtgDOWm1c)
 
 ## Project Information
 
