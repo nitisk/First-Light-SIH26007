@@ -36,12 +36,12 @@ First Light is a safety system that uses multiple sensors and V2V communication 
 
 ## Technology / Sensors Stack
 
-- LiDAR + Camera — Environment and obstacle perception
-- Radar — Object detection and relative motion
-- GNSS + IMU + Encoders — Position and vehicle movement
-- V2V Communication — Sharing hazards and fog information
-- Arduino + Raspberry Pi — Real-time control, telemetry and communication
-
+- LiDAR + Camera - Environment and obstacle perception
+- Radar - Object detection and relative motion
+- GNSS + IMU + Encoders - Position and vehicle movement
+- V2V Communication - Sharing hazards and fog information
+- Arduino + Raspberry Pi - Real-time control, telemetry and communication
+- Python - To run the simulation and process the data from the sensors
 ---
 
 ## Architecture 
