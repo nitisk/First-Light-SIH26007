@@ -1,8 +1,6 @@
 # First Light
 
 ---
-Demo Video : [Demo](./First_Light_SIH26007.pptx)
-Video Link : [Video](https://www.youtube.com/watch?v=g4CtgDOWm1c)
 
 ## Project Information
 
@@ -79,11 +77,21 @@ Safe Movement
 - [Design gallery](assets/designs.html) and [design PDF](assets/first_light_designs_clean.pdf)
 - [CAD files](assets/cad/README.md)
 - [Circuit diagrams and parts list](assets/circuit/README.md)
+- [Presentation](./First_Light_SIH26007.pptx)
 
 Simulation code is in `src/simulation/`; hardware code is in `src/hardware/`. The full-size truck CAD is a concept. The circuit is for the tabletop build. The demo video is shared separately.
 
 ---
 
+## Final Presentation
+
+PPT: [Open Final Presentation](./First_Light_SIH26007.pptx)
+
+---
+
+Video Link : [Video](https://www.youtube.com/watch?v=g4CtgDOWm1c)
+
+---
 ## Setup and run
 
 1. Install [Miniforge](https://github.com/conda-forge/miniforge#install) for your computer. Skip this if Conda is already installed.
