@@ -1,5 +1,63 @@
 # First Light
 
+1. Project Information
+
+- Project Title: First Light
+- PS ID: SIH26007
+- PS Title: Safe and Efficient Operation of Mine Vehicles in Fog and Low-Visibility Conditions in Open Cast Iron Ore Mines.
+- Category: Hardware
+- Theme: Smart Automation
+---
+
+2. Problem Statement
+
+Dense fog in Mining complexes reduces visibility, makes dumper movement unsafe and inefficient. Also increases collision risks, delays haul cycles, and causes production losses.
+---
+
+4. Proposed Solution
+
+First Light is a safety system that uses multiple sensors and V2V communication to detect vehicles, obstacles, fog, and collision risks in real time. It dynamically adjusts vehicle speed, stops vehicles when necessary, and coordinates movement at junctions to enable safer and more efficient mining operations in low visibility.	
+---
+
+5. Key Features
+
+- Real-time object detection & tracking
+- Collision-risk and time-to-collision estimation
+- Dynamic speed control based on risk and visibility
+- Automatic stop/resume with safe-state handling
+- V2V coordination with fault and communication-robustness testing
+
+6. Technology / Sensors Stack
+
+- LiDAR + Camera — Environment and obstacle perception
+- Radar — Object detection and relative motion
+- GNSS + IMU + Encoders — Position and vehicle movement
+- V2V Communication — Sharing hazards and fog information
+- Arduino + Raspberry Pi — Real-time control, telemetry and communication
+
+
+7. Architecture 
+```
+Vehicle
+   |
+   v
+Sensors
+   |
+   v
+Perception
+   |
+   v
+Risk & Decision
+   |
+   v
+Vehicle Control
+   |
+   +------> V2V Communication
+   |
+   v
+Safe Movement
+```
+
 ## Setup and run
 
 1. Install [Miniforge](https://github.com/conda-forge/miniforge#install) for your computer. Skip this if Conda is already installed.
