@@ -30,7 +30,9 @@ First Light is a safety system that uses multiple sensors and V2V communication 
 - Automatic stop/resume with safe-state handling
 - V2V coordination with fault and communication-robustness testing
 
-6. Technology / Sensors Stack
+---
+
+## Technology / Sensors Stack
 
 - LiDAR + Camera — Environment and obstacle perception
 - Radar — Object detection and relative motion
@@ -65,6 +67,19 @@ Safe Movement
 
 ---
 
+## Files
+
+- [Simulation notes](docs/simulation.md)
+- [How it works](docs/architecture.md)
+- [Hardware setup and pins](docs/hardware.md)
+- [Design gallery](assets/designs.html) and [design PDF](assets/first_light_designs_clean.pdf)
+- [CAD files](assets/cad/README.md)
+- [Circuit diagrams and parts list](assets/circuit/README.md)
+
+Simulation code is in `src/simulation/`; hardware code is in `src/hardware/`. The full-size truck CAD is a concept. The circuit is for the tabletop build. The demo video is shared separately.
+
+---
+
 ## Setup and run
 
 1. Install [Miniforge](https://github.com/conda-forge/miniforge#install) for your computer. Skip this if Conda is already installed.
@@ -86,7 +101,7 @@ This starts the PyBullet window and the Tkinter dashboard on a computer with a g
 
 Change `42` for a different seed or `4` for a different number of trucks. The seed changes fog, sensor noise and communication conditions. `--hold` keeps the windows open after parking.
 
-## Controls
+### Controls
 
 Click the PyBullet window before using the keys.
 
@@ -100,7 +115,7 @@ Click the PyBullet window before using the keys.
 
 The Tkinter window displays fleet information. Keyboard controls are in PyBullet.
 
-## Common setup issues
+### Common setup issues
 
 - **Conda not recognized:** use Miniforge Prompt on Windows.
 - **Failed building wheel for PyBullet / NumPy missing:** use the Conda commands above instead of installing the simulation with pip.
@@ -109,7 +124,7 @@ The Tkinter window displays fleet information. Keyboard controls are in PyBullet
 
 The optional local `runtime/` folder is not included in GitHub. It runs the simulation without Tkinter. The batch files do not install dependencies; use the Conda run command above for this setup.
 
-## Hardware demo
+### Hardware demo
 
 Run the controller with simulated sensor inputs:
 
@@ -119,13 +134,3 @@ conda run --no-capture-output -n first-light python src/main.py hardware --mock
 
 The physical version uses an Uno, Pi/laptop, motor driver, ultrasonic sensor, encoders, line sensors, IMU and emergency stop. The hardware code has not yet been verified on an assembled rover.
 
-## Files
-
-- [Simulation notes](docs/simulation.md)
-- [How it works](docs/architecture.md)
-- [Hardware setup and pins](docs/hardware.md)
-- [Design gallery](assets/designs.html) and [design PDF](assets/first_light_designs_clean.pdf)
-- [CAD files](assets/cad/README.md)
-- [Circuit diagrams and parts list](assets/circuit/README.md)
-
-Simulation code is in `src/simulation/`; hardware code is in `src/hardware/`. The full-size truck CAD is a concept. The circuit is for the tabletop build. The demo video is shared separately.
