@@ -10,6 +10,8 @@
 - Category: Hardware
 - Theme: Smart Automation
 
+---
+
 ## Problem Statement
 
 Dense fog in Mining complexes reduces visibility, makes dumper movement unsafe and inefficient. Also increases collision risks, delays haul cycles, and causes production losses.
