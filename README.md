@@ -1,23 +1,28 @@
 # First Light
 
-1. Project Information
+---
+
+## Project Information
 
 - Project Title: First Light
 - PS ID: SIH26007
 - PS Title: Safe and Efficient Operation of Mine Vehicles in Fog and Low-Visibility Conditions in Open Cast Iron Ore Mines.
 - Category: Hardware
 - Theme: Smart Automation
----
 
-2. Problem Statement
+## Problem Statement
 
 Dense fog in Mining complexes reduces visibility, makes dumper movement unsafe and inefficient. Also increases collision risks, delays haul cycles, and causes production losses.
 
-4. Proposed Solution
+---
+
+## Proposed Solution
 
 First Light is a safety system that uses multiple sensors and V2V communication to detect vehicles, obstacles, fog, and collision risks in real time. It dynamically adjusts vehicle speed, stops vehicles when necessary, and coordinates movement at junctions to enable safer and more efficient mining operations in low visibility.	
 
-5. Key Features
+---
+
+## Key Features
 
 - Real-time object detection & tracking
 - Collision-risk and time-to-collision estimation
@@ -33,8 +38,10 @@ First Light is a safety system that uses multiple sensors and V2V communication 
 - V2V Communication — Sharing hazards and fog information
 - Arduino + Raspberry Pi — Real-time control, telemetry and communication
 
+---
 
-7. Architecture 
+## Architecture 
+
 ```
 Vehicle
    |
@@ -55,6 +62,8 @@ Vehicle Control
    v
 Safe Movement
 ```
+
+---
 
 ## Setup and run
 
