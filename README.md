@@ -12,12 +12,10 @@
 2. Problem Statement
 
 Dense fog in Mining complexes reduces visibility, makes dumper movement unsafe and inefficient. Also increases collision risks, delays haul cycles, and causes production losses.
----
 
 4. Proposed Solution
 
 First Light is a safety system that uses multiple sensors and V2V communication to detect vehicles, obstacles, fog, and collision risks in real time. It dynamically adjusts vehicle speed, stops vehicles when necessary, and coordinates movement at junctions to enable safer and more efficient mining operations in low visibility.	
----
 
 5. Key Features
 
